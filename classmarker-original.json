@@ -1,1 +1,1626 @@
-[{"c":[6],"id":1,"images":[],"o":["OPTIONS","DELETE","PATCH","CONNECT","TRACE","PUT","HEAD","POST","GET"],"q":"Zahtjeva samo zaglavlje koje bi se dobilo GET upitom","type":"single"},{"c":[0,2,4],"id":2,"images":[],"o":["Kreirati klasu koja ce nasljediti ExceptionFilterAttribut klasu","Kreirati klasu koja nece nasljedjivati FilterAttribut klase","Implementirati (override) OnException metod","Kreiranu filter klasu oznaciti kao private","Registrovati kreiranu filter klasu na nekom od nivoa"],"q":"Ako zelis implementirati filter za hendlanje exceptiona, sta se mora implementirati?","type":"multiple"},{"c":[5],"id":3,"images":[],"o":["401","403","100","202","501","503"],"q":"Koji kod je za ‘Service Unavailable’ status?","type":"single"},{"c":[6],"id":4,"images":[],"o":["DELETE","PATCH","TRACE","CONNECT","PUT","POST","OPTIONS","HEAD","GET"],"q":"Zahtjeva listu metoda koje podrzava","type":"single"},{"c":[0,1],"id":5,"images":[],"o":["To nije softver ili tehnologija, već način razmišljanja o razvoju softvera koji se fokusira na automatizaciju svih procesa u cilju eliminisanja potrebe za manualnim intervencijama","Predstavlja koncept koji treba premostiti procjep koji evidentno postoji između Dev i Ops sektora kompanije","Osigurava kreiranje nove vrijednosti kroz unapređenje postojećih procesa","Kroz automatizaciju, osigurava konstantan napredak svih procesa unutar kompanije"],"q":"Definicija DevOps-a bi bila:","type":"multiple"},{"c":[1,5],"id":6,"images":[],"o":["POST - služi za izmjenu objekta","DELETE - Brisanje podataka sa servera","HEAD - Čitanje zaglavlja","PUT - služi za dodavanje novog resursa","PATCH - Izmjena pojedinih atributa objekta","GET - Čita podatke sa servera"],"q":"Označiti najćešće korištene HTTP metode","type":"multiple"},{"c":[0],"id":7,"images":[],"o":["DA","NE"],"q":"VSO je centralizovan","type":"single"},{"c":[3],"id":8,"images":[],"o":["Continue","HTTP Version Not Supported","Internal Server Error","Unautorized","Bad Request","Moved Permanently","OK"],"q":"Statusni kod 401:","type":"single"},{"c":[4],"id":9,"images":[],"o":["omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)","naziv image-a kojeg zelimo startati","detached mode","definisanje naziva za izvrsenje konkretnog kontejnera","starta novi kontejner"],"q":"U komandi \"docker run -d --name FIT -p 80:8080 wordpress\" (docker run):","type":"single"},{"c":[3],"id":10,"images":[],"o":["Continue","HTTP Version Not Supported","Forbidden","OK","Internal Server Error","Internal Server Error","Created"],"q":"Statusni kod 200:","type":"single"},{"c":[4],"id":11,"images":[],"o":["OK","Moved Permanently","No Content","Created","Continue","Not Found","Unautorized"],"q":"Statusni kod 100:","type":"single"},{"c":[2],"id":12,"images":[],"o":["starta novi kontejner","omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)","detached mode","definisanje naziva za izvrsenje konkretnog kontejnera","naziv image-a kojeg zelimo startati"],"q":"U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (-d):","type":"single"},{"c":[1],"id":13,"images":[],"o":["20%","Nije je moguce izracunati jer vrijednosti nisu diskretne.","30%","70%"],"q":"Izracunati Hamming-ovu udaljenost na osnovu vrijednosti:2.6, -3.1, 2.1, 4.9, -2.5","type":"single"},{"c":[3],"id":14,"images":[],"o":["POST","CONNECT","TRACE","DELETE","OPTIONS","PUT","GET","HEAD","PATCH"],"q":"Uklanjanje resursa","type":"single"},{"c":[4],"id":15,"images":[],"o":["Uspjesna realizacija zahtjeva","Greske nastale na serverskoj strani","Poruke informativnog karaktera","Odredjena vrsta redirekcije","Greske uzrokovane klijentskim akcijam"],"q":"HTTP statusni kodovi grupe 4xx:","type":"single"},{"c":[0,1],"id":16,"images":[],"o":["Docker","Octopus","Kibana","Logstash"],"q":"Koje alate koristimo za kontinuiranu isporuku?","type":"multiple"},{"c":[0],"id":17,"images":[],"o":["[    { \"Indeks\": 110011, \"ImePrezime\": \"Marko Markovic\", “Aktivan”: True },    { \"Indeks\": 110022, \"ImePrezime\": \"Mujo Mujic\", “Aktivan”: False },    { \"Indeks\": 110033, \"ImePrezime\": \"Ivan Ivanic\", “Aktivan”: False }]","[    { <Indeks> 110011, <ImePrezime> \"Marko Markovic\", <Aktivan> True },    { <Indeks> 110022, <ImePrezime> \"Mujo Mujic\", <Aktivan> False },    { <Indeks> 110033, <ImePrezime> \"Ivan Ivanic\", <Aktivan> False }]","[    { \"Indeks 110011\", \"ImePrezime Marko Markovic\", “Aktivan True\" },    { \"Indeks  110022\", \"ImePrezime Mujo Mujic\", “Aktivan False\" },    { \"Indeks  110033\", \"ImePrezime Ivan Ivanic\", “Aktivan False\" }]"],"q":"Koji je validan format JSON-a?","type":"single"},{"c":[0],"id":18,"images":[],"o":["DA","NE"],"q":"Container se moze posmatrati kao set procesa koji se izvrsavaju u okviru pomenutog fajl sistema. Drugim rijecima, container se moze posmatrati kao pokrenuti/startani image.","type":"single"},{"c":[0],"id":19,"images":[],"o":["DA","NE"],"q":"NoContent znaci da zahtjevani resurs ne postoji, a najcesce se koristi kod DELETE metode.","type":"single"},{"c":[1],"id":20,"images":[],"o":["DA","NE"],"q":"NoContent znaci da zahtjevani resurs ne postoji, a najcesce se koristi kod GET metode","type":"single"},{"c":[0,1,3,5],"id":21,"images":[],"o":["Postavljanje razvojnih okruzenja je dosta brzo I unificirano","Brza isporuka kvalitetnog softvera","Nije pogodan za dijeljenje fajlova koji ne sadrze programski kod","Minimizira potencijalne konflikte izmedju aplikacija","Isporucuje se u binarnom formatu","Jednostavno kretanje softvera kroz razlicita okruzenja","Zbog nacina kompajliranja isporucuje se u izvornom obliku"],"q":"Osobine dockera:","type":"multiple"},{"c":[1],"id":22,"images":[],"o":["AtionName()","HttpResponseMessage","New URI(\"api/url\")","GetResponse()"],"q":"Preko objekta koje klase možemo pozivati druge api metode","type":"single"},{"c":[1],"id":23,"images":[],"o":["301","401","404","204","500"],"q":"Koji će status code dobiti user koji se nije autorizovao, a pokušava pristupiti resursu?","type":"single"},{"c":[3],"id":24,"images":[],"o":["Created","Continue","OK","Service Unavailable","Moved Permanently","Unautorized","HTTP Version Not Supported"],"q":"Statusni kod 503:","type":"single"},{"c":[1],"id":25,"images":[],"o":["JavaSource Object Negotiation","JavaScript Object Notation","JavaScript Oriented Network","JavaSocket Object Network"],"q":"Znacenje JSON:","type":"single"},{"c":[4],"id":26,"images":[],"o":["OK","Not Found","Forbidden","Unautorized","HTTP Version Not Supported","Internal Server Error","Continue"],"q":"Statusni kod 505:","type":"single"},{"c":[0,1,4,5,6,8],"id":27,"images":[],"o":["Jednostavnija migracija na novu verziju","Ponovna iskoristivost i prenosivost","Isporučuje se u izvornom obliku","Zahtjevno održavanje radi velikog broja licenci","Dijeljenje jednog operatovnog sistema","Može raditi na različitim platformama: VM, cloudu, ...","Samostalnost okruženja","Nije pogodan za PCL projekte","Jednostavno upravljanje"],"q":"Označiti tvrdnje koje odlikuju DOCKER:","type":"multiple"},{"c":[4],"id":28,"images":[],"o":["CONNECT","HEAD","PUT","OPTIONS","TRACE","GET","POST","PATCH","DELETE"],"q":"Zahtjeva vise detalja o obavljenim akcijama","type":"single"},{"c":[0,1],"id":29,"images":[],"o":["Osigurati kreiranje nove vrijednosti kroz unapređenje postojećih procesa","Kroz automatizaciju, osigurati konstantan napredak svih procesa unutar kompanije","Predstavljati koncept koji treba premostiti procjep koji evidentno postoji između Dev i Ops sektora kompanije","Postati način razmišljanja o razvoju softvera koji se fokusira na automatizaciju svih procesa u cilju eliminisanja potrebe za manualnim intervencijama"],"q":"Ciljevi DevOps-a su:","type":"multiple"},{"c":[0],"id":30,"images":[],"o":["DA","NE"],"q":"Image predstavlja kolekciju fajlova i meta podataka koji sacinjavaju root fajl sistem kontejnera, a obicno su sastavljeni od vise slojeva od kojih se neki mogu modifikovati.","type":"single"},{"c":[0],"id":31,"images":[],"o":["PATCH","CONNECT","TRACE","OPTIONS"],"q":"Koja HTTP metoda omogucava iskljucivanje cache-a?","type":"single"},{"c":[1],"id":32,"images":[],"o":["Kreira se Akcija u kontroleru koja sadrzi sve atribute procedure.","Kreira se Complex Type klasa koja sadrzi atribute koje vraca i sama procedura.","Kreira se static klasa koja sadrzi atribute koje vraca i sama procedura."],"q":"Kod mapiranja procedura, sta se kreira?","type":"single"},{"c":[0,3,4,7],"id":33,"images":[],"o":["DELETE","PATCH","TRACE","POST","PUT","XML","OPTIONS","GET"],"q":"Oznaci standardne HTTP metode:","type":"multiple"},{"c":[2,3],"id":34,"images":[],"o":["Predefinisani XML tagovi","MD5 kljuc za lozinku","Koristeni algoritmi i kljucevi","Meta podaci"],"q":"Sta se nalazi u header-u JSON web tokena (JWT)?","type":"multiple"},{"c":[2],"id":35,"images":[],"o":["Service Unavailable","Continue","Not Found","Unautorized","Created","Forbidden","OK"],"q":"Statusni kod 404:","type":"single"},{"c":[2],"id":36,"images":[],"o":["Not Found","Continue","Forbidden","Service Unavailable","Unautorized","Moved Permanently","OK"],"q":"Statusni kod 403:","type":"single"},{"c":[2],"id":37,"images":[],"o":["OPTIONS","CONNECT","TRACE","PATCH"],"q":"Kojom metodom mozemo dijagnosticirati problem u komunikaciji sa serverom?","type":"single"},{"c":[2],"id":38,"images":[],"o":["Omogućava preporuku proizvoda sličnih onima koje je kupac prethodno pregledao, ocijenio, komentarisao, kupovao.","Omogućava preporuku proizvoda koje su drugi kupci, sa sličnim preferencijama, već ocijenili. Ukoliko su kupci slični, onda će vjerovatno imati slične zahtjeve i potrebe.","Omogućava preporuku proizvoda na osnovu učestalosti zajedničke kupovine."],"q":"Association rules learning (ARL)","type":"single"},{"c":[0,3,5,6],"id":39,"images":[],"o":["WSDL","URI","DSL","UDDI","URL","SOAP","XML"],"q":"Kljucne komponente web servisa su:","type":"multiple"},{"c":[5],"id":40,"images":[],"o":["Continue","Unautorized","HTTP Version Not Supported","OK","Service Unavailable","Bad Request","Forbidden"],"q":"Statusni kod 400:","type":"single"},{"c":[0],"id":41,"images":[],"o":["Olakšavanje procesa integracije","Kontinuiranu isporuku softwarea","Obradu log fajlova","Testiranje WebApi servisa"],"q":"Jenkins i TeamCity, su alati za:","type":"single"},{"c":[1],"id":42,"images":[],"o":["detached mode","omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)","definisanje naziva za izvrsenje konkretnog kontejnera","starta novi kontejner","naziv image-a kojeg zelimo startati"],"q":"U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (-p):","type":"single"},{"c":[1],"id":43,"images":[],"o":["DA","NE"],"q":"Kolaborativni filter nije dobar zbog raznovrsnosti sadrzaja?","type":"single"},{"c":[0],"id":44,"images":[],"o":["Signature","Padding","Encryption data","size"],"q":"Šta je zadnji dio encodiranog Base64 stringa","type":"single"},{"c":[1,2,5,6,7,8],"id":45,"images":[],"o":["Moze sadrzavati razlicite vrste fajlova","Ogranicen set dostupnih API-ova","Isporucuje se u binarnom formatu","Zbog nacina kompajliranja isporucuje se u izvornom obliku","Moze dovesti do kreiranja projekta koji je dosta tesko odrzavati i nadogradjivati","Podrzava postavljenu arhitekture aplikacije","Pogodan za unit testove","Nije pogodan za dijeljenje fajlova koji ne sadrze programski kod","Nije pogodan za dodavanje dijelova koda koji su specificni za pojedine platforme"],"q":"Oznaci osobine PCL-a.","type":"multiple"},{"c":[0],"id":46,"images":[],"o":["DA","NE"],"q":"DevOps se zasniva na LEAN?","type":"single"},{"c":[1,2,5],"id":47,"images":[],"o":["IIS","Hub","Client","Switch","WebAPI","Host"],"q":"Označi komponente kroz koje možemo posmatrati DOCKER:","type":"multiple"},{"c":[2],"id":48,"images":[],"o":["Greske uzrokovane klijentskim akcijam","Greske nastale na serverskoj strani","Uspjesna realizacija zahtjeva","Odredjena vrsta redirekcije","Poruke informativnog karaktera"],"q":"HTTP statusni kodovi grupe 2xx:","type":"single"},{"c":[5],"id":49,"images":[],"o":["POST","HEAD","TRACE","GET","PATCH","PUT","DELETE","CONNECT","OPTIONS"],"q":"Zamjena postojeceg resursa","type":"single"},{"c":[1],"id":50,"images":[],"o":["Da","Ne"],"q":"Prilikom POST zahtjeva, u polje Accept, mozemo specificirati koji format podataka očekujemo?","type":"single"},{"c":[0,1],"id":51,"images":[],"o":["Dodavanjem odgovarajuceg atributa iznad tijela definicije","U WebApiConfig klasi","Nista od navedenog"],"q":"Na koje nacine parametar mozemo proglasiti opcionalnim?","type":"multiple"},{"c":[0,1,2,3,4,6,7,8,9],"id":52,"images":[],"o":["CreatedAtRoute","Created","InternalServerError","Redirect","NotFound","Inserted","OK","StatusCode","Conflict","BadRequest"],"q":"Oznaci helper metode:","type":"multiple"},{"c":[6],"id":53,"images":[],"o":["Created","Unautorized","Not Found","OK","Continue","HTTP Version Not Supported","Internal Server Error"],"q":"Statusni kod 500:","type":"single"},{"c":[0],"id":54,"images":[],"o":["Omogućava preporuku proizvoda koje su drugi kupci, sa sličnim preferencijama, već ocijenili. Ukoliko su kupci slični, onda će vjerovatno imati slične zahtjeve i potrebe.","Omogućava preporuku proizvoda na osnovu učestalosti zajedničke kupovine.","Omogućava preporuku proizvoda sličnih onima koje je kupac prethodno pregledao, ocijenio, komentarisao, kupovao."],"q":"Collaborative filtering (CF)","type":"single"},{"c":[0],"id":55,"images":[],"o":["Binary JavaScript Object Notation","Bound JavaScript Oriented Network","Bilingual JavaSocket Object Network"],"q":"Znacenje BSON:","type":"single"},{"c":[0],"id":56,"images":[],"o":["definisanje naziva za izvrsenje konkretnog kontejnera","starta novi kontejner","detached mode","naziv image-a kojeg zelimo startati","omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)"],"q":"U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (--name FIT):","type":"single"},{"c":[1],"id":57,"images":[],"o":["DA. Iskljucivo komunicira sa ASP.NET.","NE. Moze pruzati i drugim aplikacijama."],"q":"Da li WebAPI moze pruzati usluge samo ASP.NET aplikacijama?","type":"single"},{"c":[8],"id":58,"images":[],"o":["DELETE","TRACE","PUT","CONNECT","OPTIONS","GET","POST","HEAD","PATCH"],"q":"Promjena vrijednosti odredjenih atributa resursa","type":"single"},{"c":[1],"id":59,"images":[],"o":["204","403","505","404","500","301"],"q":"Koji će status code dobiti user koji se autorizovao ali nema permisija da pristupi resursu?","type":"single"},{"c":[0,2,4,5],"id":60,"images":[],"o":["Zasnovan na ASP.NET","Ne može pružati servise LINUX platfomama","Framework za razvoj HTTP servisa kojima pristupaju različiti klijenti","Nije pogodan za iOS bazirane uređaje","Pružanje servisnog sloja za klijent-server desktop, mobilne i druge vrste aplikacija.","Posrednik u komunikaciji između dvije komponente/softwarea"],"q":"Šta karakteriše WebAPI:","type":"multiple"},{"c":[1],"id":61,"images":[],"o":["DA","NE"],"q":"DevOps se zasniva na agilnim metodama, tj. na SCRUM-u?","type":"single"},{"c":[0],"id":62,"images":[],"o":["Sistem nema dovoljno informacija sa kojim bi mogao raditi, tj. ne postoji dovoljan broj ocjena proizvoda da bi se dala tacna preporuka.","Sistem sadrzi dovoljno informacija sa kojim bi mogao raditi, tj. postoji dovoljan broj ocjena proizvoda da bi se dala tacna preporuka."],"q":"Koji je uzrok cold start-a?","type":"single"},{"c":[3],"id":63,"images":[],"o":["starta novi kontejner","omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)","detached mode","naziv image-a kojeg zelimo startati","definisanje naziva za izvrsenje konkretnog kontejnera"],"q":"U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (wordpress):","type":"single"},{"c":[3],"id":64,"images":[],"o":["Greske uzrokovane klijentskim akcijam","Poruke informativnog karaktera","Odredjena vrsta redirekcije","Greske nastale na serverskoj strani","Uspjesna realizacija zahtjeva"],"q":"HTTP statusni kodovi grupe 5xx:","type":"single"},{"c":[0],"id":65,"images":[],"o":["DA","NE"],"q":"Da li je WebAPI baziran na ASP.NET?","type":"single"},{"c":[0],"id":66,"images":[],"o":["status code","IIS Expres usmjerava na pogresnu adresu","HttpResponseMessage","IIS Nije pokrenut"],"q":"Šta predstavlja Internal Server Error?","type":"single"},{"c":[1],"id":67,"images":[],"o":["CustomFilterAttribut","ExceptionFilterAttribut","OptionFilterAttribut","Base Class"],"q":"Kad se kreira vlastiti filter, koju klasu moramo naslijediti?","type":"single"},{"c":[0,1,2,3,4,6],"id":68,"images":[],"o":["Moguce je dodati dijelove koda koji su specificni za pojedine platforme","Zbog nacina kompajliranja isporucuje se u izvornom obliku","Moze dovesti do kreiranja projekta koji je dosta tesko odrzavati i nadogradjivati","Moze sadrzavati razlicite vrste fajlova","Otezano izvrsenje unit testova","Isporucuje se u binarnom formatu","Dostupni su svi API-ovi","Ogranicen set dostupnih API-ova","Podrzava postavljenu arhitekture aplikacije"],"q":"Oznaci osobine Shared-a.","type":"multiple"},{"c":[0,2],"id":69,"images":[],"o":["Predstavlja XML bazirani protokol za razmjenu poruka, odnosno protokol za komunikaciju sa Web servisom","Predstavlja protokol za komunikaciju na fizičkom sloju podataka","Definiše set pravila o strukturi sadržaja poruke","Ništa od navedenog","Predstavlja protokol za razmjenu HTML sadržaja"],"q":"SOAP (Simple Object Access Protocol)","type":"multiple"},{"c":[2,3,4],"id":70,"images":[],"o":["Kriptovan sadrzaj, potrebno je implementirati neki algoritam za dekripciju","Nema postavljenih ogranicenja u duzini stringa","Citljiv sadrzaj, ukoliko se ne implementira neki dodatni sigurnosni mehanizam","Predefinisano znacenje pojedinih znakova","Ogranicenje u duzini stringa"],"q":"Osobine query string-a?","type":"multiple"},{"c":[0],"id":71,"images":[],"o":["HttpClient","Octopus","Docker"],"q":"Za komunikaciju izmedju WebAPI i desktop ili mobilne aplikacije, koju klasu koristimo?","type":"single"},{"c":[3],"id":72,"images":[],"o":["Forbidden","Bad Request","Not Found","Moved Permanently","Continue","Unautorized","OK"],"q":"Statusni kod 301:","type":"single"},{"c":[4],"id":73,"images":[],"o":["<table>","#header","<label></label>","<head>","Nista od navedenog"],"q":"Oznaciti xml predefinisane tagove:","type":"multiple"},{"c":[1],"id":74,"images":[],"o":["Da","Ne"],"q":"HttpResponseMessage se sastoji samo iz status code i poruke?","type":"single"},{"c":[0],"id":75,"images":[],"o":["POST","PATCH","TRACE","GET","HEAD","PUT","DELETE","CONNECT","OPTIONS"],"q":"Dodavanje novog resursa","type":"single"},{"c":[1,2],"id":76,"images":[],"o":["Octopus","Kibana","Logstash","Docker"],"q":"Koje alate koristimo za prikupljanje, analizu i vizualizaciju obrade log fajlova?","type":"multiple"},{"c":[0],"id":77,"images":[],"o":["NE. Mozemo ukljuciti samo one biblioteke koje se nalaze u svim projektima.","NE. U PCL se ne moze ukljuciti nijedna biblioteka.","DA. Mozemo ukljuciti bilo koju biblioteku koje se nalazi na lokalnom disku."],"q":"Da li u PCL mozemo ukljuciti bilo koju biblioteku?","type":"single"},{"c":[0],"id":78,"images":[],"o":["GET","DELETE","HEAD","POST","PATCH","OPTIONS","PUT","CONNECT","TRACE"],"q":"Citanje sadrzaja resursa","type":"single"},{"c":[1],"id":79,"images":[],"o":["Greske nastale na serverskoj strani","Odredjena vrsta redirekcije","Poruke informativnog karaktera","Greske uzrokovane klijentskim akcijam","Uspjesna realizacija zahtjeva"],"q":"HTTP statusni kodovi grupe 3xx:","type":"single"},{"c":[2],"id":80,"images":[],"o":["Forbidden","OK","Created","Service Unavailable","Not Found","HTTP Version Not Supported","Continue"],"q":"Statusni kod 201:","type":"single"},{"c":[0,2],"id":81,"images":[],"o":["Content-Type","BadRequest","Accept","CreatedAtRoute","StatusCode"],"q":"Formati za komunikaciju (Content Negotiation) u hederu get/post su:","type":"multiple"},{"c":[2],"id":82,"images":[],"o":["Chrome i Firefox koriste JSON / Edge koristi XML","Svi browseri koriste JSON format kao default","Chrome i Firefox koriste XML / Edge koristi JSON"],"q":"Ukoliko instaliramo bilo koji browser sa defaultnim postavkama koji format podataka se koristi?","type":"single"},{"c":[1],"id":83,"images":[],"o":["Odredjena vrsta redirekcije","Poruke informativnog karaktera","Uspjesna realizacija zahtjeva","Greske nastale na serverskoj strani","Greske uzrokovane klijentskim akcijam"],"q":"HTTP statusni kodovi grupe 1xx:","type":"single"},{"c":[0],"id":84,"images":[],"o":["DA","NE"],"q":"ActionName, koristi se za davanje drugih (alternativnih) imena akcijama.","type":"single"},{"c":[2],"id":85,"images":[],"o":["api/proizvodi/searchproizvod/vrstaID?=id","api/proizvodi/searchproizvod/{vrstaID?/vrstaID=>x.proizvodID}","api/proizvodi/searchproizvod/{vrstaID?}"],"q":"Odaberi tacan nacin za pozivanje „searchproizvod“ akcije u kontroleru Proizvodi.","type":"single"},{"c":[2],"id":86,"images":[],"o":["Detaljno obavjesti o stanju greške","Preduhitri je exception metod ako je urađen","500 - Internal server error"],"q":"Šta ce nam vratiti WebAPI ako se desi greška koju servisni sloj ne prepoznaje?","type":"single"},{"c":[2],"id":87,"images":[],"o":["50%","30%","60%","Nije je moguce izracunati jer vrijednosti nisu diskretne."],"q":"Izracunati Hamming-ovu udaljenost na osnovu vrijednosti:5,3,4,4,4 - 5,2,4,3,1","type":"single"},{"c":[2],"id":88,"images":[],"o":["CONNECT","PATCH","HEAD","OPTIONS","TRACE"],"q":"Koju metodu koristimo kad zelimo znati da li posjedujemo posljednju veziju podataka dostupnih na serveru.","type":"single"},{"c":[0],"id":89,"images":[],"o":["Da","Ne"],"q":"Sistemi preporuke imaju za cilj osigurati personalizaciju i kupcima ponuditi ono što odgovara njihovim potrebama.","type":"single"},{"c":[1],"id":90,"images":[],"o":["Omogućava preporuku proizvoda koje su drugi kupci, sa sličnim preferencijama, već ocijenili. Ukoliko su kupci slični, onda će vjerovatno imati slične zahtjeve i potrebe.","Omogućava preporuku proizvoda sličnih onima koje je kupac prethodno pregledao, ocijenio, komentarisao, kupovao.","Omogućava preporuku proizvoda na osnovu učestalosti zajedničke kupovine."],"q":"Content-based filtering (CBF)","type":"single"},{"c":[1],"id":91,"images":[],"o":["DA","NE"],"q":"Image predstavlja sliku koja prikazuje sistem kontejnera, a obicno je jednoslojna i ne moze se modifikovati.","type":"single"},{"c":[1],"id":92,"images":[],"o":["DA","NE"],"q":"Container se ne moze posmatrati kao set procesa koji se izvrsavaju u okviru pomenutog fajl sistema. Drugim rijecima, container se ne moze posmatrati kao pokrenuti/startani image.","type":"single"},{"c":[0],"id":93,"images":[],"o":["No Content","Moved Permanently","Continue","Bad Request","OK","Created","Forbidden"],"q":"Statusni kod 204:","type":"single"},{"c":[1],"id":94,"images":[],"o":["Da","Ne"],"q":"Status code 204 označava da se request NEUSPJEŠNO izvršio?","type":"single"},{"c":[1],"id":95,"images":[],"o":["Vjerovatnoca kupovine posmatranog proizvoda.","Vjerovatnoca kupovine drugog proizvoda nakon kupovine prvog.","Promjena u vjerovatnoci da ce drugi proizvod biti kupljen nakon kupovine prvog."],"q":"Kod association rules, sta znaci confidence?","type":"single"},{"c":[0],"id":96,"images":[],"o":["DA","NE"],"q":"Zadnja verzija HTTP-a je 2.0.","type":"single"},{"c":[2],"id":97,"images":[],"o":["Informacije o akcijama koje se trenutno izvrsavaju ili su se ranije izvrsavale na docker-u.","Informacije o Web servisima koji se izvrsavaju ili su se ranije izvrsavali.","Informacije o kontejnerima koji se trenutno izvrsavaju ili su se ranije izvrsavali na docker-u."],"q":"Koje informacije nam daju komande docker ps i docker ps -a?","type":"single"},{"c":[1],"id":98,"images":[{"alt":"","src":"https://image.ibb.co/g782ec/3.jpg"},{"alt":"","src":"https://image.ibb.co/efkR5H/1.jpg"},{"alt":"","src":"https://image.ibb.co/jD5R5H/4.jpg"},{"alt":"","src":"https://image.ibb.co/e282ec/2.jpg"}],"o":["A.","B.","C.","D."],"q":"Izračunati sličnost na osnovu vrijednosti iz tabele.","type":"single"},{"c":[8],"id":99,"images":[],"o":["OPTIONS","GET","TRACE","DELETE","HEAD","POST","PUT","PATCH","CONNECT"],"q":"Signal, najcesce proxy serveru, vezano za tuneliranje komunikacije (SSL)","type":"single"}]
+[
+  {
+    "c": [
+      6
+    ],
+    "id": 1,
+    "images": [],
+    "o": [
+      "OPTIONS",
+      "DELETE",
+      "PATCH",
+      "CONNECT",
+      "TRACE",
+      "PUT",
+      "HEAD",
+      "POST",
+      "GET"
+    ],
+    "q": "Zahtjeva samo zaglavlje koje bi se dobilo GET upitom",
+    "type": "single"
+  },
+  {
+    "c": [
+      0,
+      2,
+      4
+    ],
+    "id": 2,
+    "images": [],
+    "o": [
+      "Kreirati klasu koja ce nasljediti ExceptionFilterAttribut klasu",
+      "Kreirati klasu koja nece nasljedjivati FilterAttribut klase",
+      "Implementirati (override) OnException metod",
+      "Kreiranu filter klasu oznaciti kao private",
+      "Registrovati kreiranu filter klasu na nekom od nivoa"
+    ],
+    "q": "Ako zelis implementirati filter za hendlanje exceptiona, sta se mora implementirati?",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      5
+    ],
+    "id": 3,
+    "images": [],
+    "o": [
+      "401",
+      "403",
+      "100",
+      "202",
+      "501",
+      "503"
+    ],
+    "q": "Koji kod je za ‘Service Unavailable’ status?",
+    "type": "single"
+  },
+  {
+    "c": [
+      6
+    ],
+    "id": 4,
+    "images": [],
+    "o": [
+      "DELETE",
+      "PATCH",
+      "TRACE",
+      "CONNECT",
+      "PUT",
+      "POST",
+      "OPTIONS",
+      "HEAD",
+      "GET"
+    ],
+    "q": "Zahtjeva listu metoda koje podrzava",
+    "type": "single"
+  },
+  {
+    "c": [
+      0,
+      1
+    ],
+    "id": 5,
+    "images": [],
+    "o": [
+      "To nije softver ili tehnologija, već način razmišljanja o razvoju softvera koji se fokusira na automatizaciju svih procesa u cilju eliminisanja potrebe za manualnim intervencijama",
+      "Predstavlja koncept koji treba premostiti procjep koji evidentno postoji između Dev i Ops sektora kompanije",
+      "Osigurava kreiranje nove vrijednosti kroz unapređenje postojećih procesa",
+      "Kroz automatizaciju, osigurava konstantan napredak svih procesa unutar kompanije"
+    ],
+    "q": "Definicija DevOps-a bi bila:",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      1,
+      5
+    ],
+    "id": 6,
+    "images": [],
+    "o": [
+      "POST - služi za izmjenu objekta",
+      "DELETE - Brisanje podataka sa servera",
+      "HEAD - Čitanje zaglavlja",
+      "PUT - služi za dodavanje novog resursa",
+      "PATCH - Izmjena pojedinih atributa objekta",
+      "GET - Čita podatke sa servera"
+    ],
+    "q": "Označiti najćešće korištene HTTP metode",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 7,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "VSO je centralizovan",
+    "type": "single"
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 8,
+    "images": [],
+    "o": [
+      "Continue",
+      "HTTP Version Not Supported",
+      "Internal Server Error",
+      "Unautorized",
+      "Bad Request",
+      "Moved Permanently",
+      "OK"
+    ],
+    "q": "Statusni kod 401:",
+    "type": "single"
+  },
+  {
+    "c": [
+      4
+    ],
+    "id": 9,
+    "images": [],
+    "o": [
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)",
+      "naziv image-a kojeg zelimo startati",
+      "detached mode",
+      "definisanje naziva za izvrsenje konkretnog kontejnera",
+      "starta novi kontejner"
+    ],
+    "q": "U komandi \"docker run -d --name FIT -p 80:8080 wordpress\" (docker run):",
+    "type": "single"
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 10,
+    "images": [],
+    "o": [
+      "Continue",
+      "HTTP Version Not Supported",
+      "Forbidden",
+      "OK",
+      "Internal Server Error",
+      "Internal Server Error",
+      "Created"
+    ],
+    "q": "Statusni kod 200:",
+    "type": "single"
+  },
+  {
+    "c": [
+      4
+    ],
+    "id": 11,
+    "images": [],
+    "o": [
+      "OK",
+      "Moved Permanently",
+      "No Content",
+      "Created",
+      "Continue",
+      "Not Found",
+      "Unautorized"
+    ],
+    "q": "Statusni kod 100:",
+    "type": "single"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 12,
+    "images": [],
+    "o": [
+      "starta novi kontejner",
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)",
+      "detached mode",
+      "definisanje naziva za izvrsenje konkretnog kontejnera",
+      "naziv image-a kojeg zelimo startati"
+    ],
+    "q": "U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (-d):",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 13,
+    "images": [],
+    "o": [
+      "20%",
+      "Nije je moguce izracunati jer vrijednosti nisu diskretne.",
+      "30%",
+      "70%"
+    ],
+    "q": "Izracunati Hamming-ovu udaljenost na osnovu vrijednosti:2.6, -3.1, 2.1, 4.9, -2.5",
+    "type": "single"
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 14,
+    "images": [],
+    "o": [
+      "POST",
+      "CONNECT",
+      "TRACE",
+      "DELETE",
+      "OPTIONS",
+      "PUT",
+      "GET",
+      "HEAD",
+      "PATCH"
+    ],
+    "q": "Uklanjanje resursa",
+    "type": "single"
+  },
+  {
+    "c": [
+      4
+    ],
+    "id": 15,
+    "images": [],
+    "o": [
+      "Uspjesna realizacija zahtjeva",
+      "Greske nastale na serverskoj strani",
+      "Poruke informativnog karaktera",
+      "Odredjena vrsta redirekcije",
+      "Greske uzrokovane klijentskim akcijam"
+    ],
+    "q": "HTTP statusni kodovi grupe 4xx:",
+    "type": "single"
+  },
+  {
+    "c": [
+      0,
+      1
+    ],
+    "id": 16,
+    "images": [],
+    "o": [
+      "Docker",
+      "Octopus",
+      "Kibana",
+      "Logstash"
+    ],
+    "q": "Koje alate koristimo za kontinuiranu isporuku?",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 17,
+    "images": [],
+    "o": [
+      "[    { \"Indeks\": 110011, \"ImePrezime\": \"Marko Markovic\", “Aktivan”: True },    { \"Indeks\": 110022, \"ImePrezime\": \"Mujo Mujic\", “Aktivan”: False },    { \"Indeks\": 110033, \"ImePrezime\": \"Ivan Ivanic\", “Aktivan”: False }]",
+      "[    { <Indeks> 110011, <ImePrezime> \"Marko Markovic\", <Aktivan> True },    { <Indeks> 110022, <ImePrezime> \"Mujo Mujic\", <Aktivan> False },    { <Indeks> 110033, <ImePrezime> \"Ivan Ivanic\", <Aktivan> False }]",
+      "[    { \"Indeks 110011\", \"ImePrezime Marko Markovic\", “Aktivan True\" },    { \"Indeks  110022\", \"ImePrezime Mujo Mujic\", “Aktivan False\" },    { \"Indeks  110033\", \"ImePrezime Ivan Ivanic\", “Aktivan False\" }]"
+    ],
+    "q": "Koji je validan format JSON-a?",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 18,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "Container se moze posmatrati kao set procesa koji se izvrsavaju u okviru pomenutog fajl sistema. Drugim rijecima, container se moze posmatrati kao pokrenuti/startani image.",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 19,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "NoContent znaci da zahtjevani resurs ne postoji, a najcesce se koristi kod DELETE metode.",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 20,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "NoContent znaci da zahtjevani resurs ne postoji, a najcesce se koristi kod GET metode",
+    "type": "single"
+  },
+  {
+    "c": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 21,
+    "images": [],
+    "o": [
+      "Postavljanje razvojnih okruzenja je dosta brzo I unificirano",
+      "Brza isporuka kvalitetnog softvera",
+      "Nije pogodan za dijeljenje fajlova koji ne sadrze programski kod",
+      "Minimizira potencijalne konflikte izmedju aplikacija",
+      "Isporucuje se u binarnom formatu",
+      "Jednostavno kretanje softvera kroz razlicita okruzenja",
+      "Zbog nacina kompajliranja isporucuje se u izvornom obliku"
+    ],
+    "q": "Osobine dockera:",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 22,
+    "images": [],
+    "o": [
+      "AtionName()",
+      "HttpResponseMessage",
+      "New URI(\"api/url\")",
+      "GetResponse()"
+    ],
+    "q": "Preko objekta koje klase možemo pozivati druge api metode",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 23,
+    "images": [],
+    "o": [
+      "301",
+      "401",
+      "404",
+      "204",
+      "500"
+    ],
+    "q": "Koji će status code dobiti user koji se nije autorizovao, a pokušava pristupiti resursu?",
+    "type": "single"
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 24,
+    "images": [],
+    "o": [
+      "Created",
+      "Continue",
+      "OK",
+      "Service Unavailable",
+      "Moved Permanently",
+      "Unautorized",
+      "HTTP Version Not Supported"
+    ],
+    "q": "Statusni kod 503:",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 25,
+    "images": [],
+    "o": [
+      "JavaSource Object Negotiation",
+      "JavaScript Object Notation",
+      "JavaScript Oriented Network",
+      "JavaSocket Object Network"
+    ],
+    "q": "Znacenje JSON:",
+    "type": "single"
+  },
+  {
+    "c": [
+      4
+    ],
+    "id": 26,
+    "images": [],
+    "o": [
+      "OK",
+      "Not Found",
+      "Forbidden",
+      "Unautorized",
+      "HTTP Version Not Supported",
+      "Internal Server Error",
+      "Continue"
+    ],
+    "q": "Statusni kod 505:",
+    "type": "single"
+  },
+  {
+    "c": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      8
+    ],
+    "id": 27,
+    "images": [],
+    "o": [
+      "Jednostavnija migracija na novu verziju",
+      "Ponovna iskoristivost i prenosivost",
+      "Isporučuje se u izvornom obliku",
+      "Zahtjevno održavanje radi velikog broja licenci",
+      "Dijeljenje jednog operatovnog sistema",
+      "Može raditi na različitim platformama: VM, cloudu, ...",
+      "Samostalnost okruženja",
+      "Nije pogodan za PCL projekte",
+      "Jednostavno upravljanje"
+    ],
+    "q": "Označiti tvrdnje koje odlikuju DOCKER:",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      4
+    ],
+    "id": 28,
+    "images": [],
+    "o": [
+      "CONNECT",
+      "HEAD",
+      "PUT",
+      "OPTIONS",
+      "TRACE",
+      "GET",
+      "POST",
+      "PATCH",
+      "DELETE"
+    ],
+    "q": "Zahtjeva vise detalja o obavljenim akcijama",
+    "type": "single"
+  },
+  {
+    "c": [
+      0,
+      1
+    ],
+    "id": 29,
+    "images": [],
+    "o": [
+      "Osigurati kreiranje nove vrijednosti kroz unapređenje postojećih procesa",
+      "Kroz automatizaciju, osigurati konstantan napredak svih procesa unutar kompanije",
+      "Predstavljati koncept koji treba premostiti procjep koji evidentno postoji između Dev i Ops sektora kompanije",
+      "Postati način razmišljanja o razvoju softvera koji se fokusira na automatizaciju svih procesa u cilju eliminisanja potrebe za manualnim intervencijama"
+    ],
+    "q": "Ciljevi DevOps-a su:",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 30,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "Image predstavlja kolekciju fajlova i meta podataka koji sacinjavaju root fajl sistem kontejnera, a obicno su sastavljeni od vise slojeva od kojih se neki mogu modifikovati.",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 32,
+    "images": [],
+    "o": [
+      "Kreira se Akcija u kontroleru koja sadrzi sve atribute procedure.",
+      "Kreira se Complex Type klasa koja sadrzi atribute koje vraca i sama procedura.",
+      "Kreira se static klasa koja sadrzi atribute koje vraca i sama procedura."
+    ],
+    "q": "Kod mapiranja procedura, sta se kreira?",
+    "type": "single"
+  },
+  {
+    "c": [
+      0,
+      3,
+      4,
+      7
+    ],
+    "id": 33,
+    "images": [],
+    "o": [
+      "DELETE",
+      "PATCH",
+      "TRACE",
+      "POST",
+      "PUT",
+      "XML",
+      "OPTIONS",
+      "GET"
+    ],
+    "q": "Oznaci standardne HTTP metode:",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      2,
+      3
+    ],
+    "id": 34,
+    "images": [],
+    "o": [
+      "Predefinisani XML tagovi",
+      "MD5 kljuc za lozinku",
+      "Koristeni algoritmi i kljucevi",
+      "Meta podaci"
+    ],
+    "q": "Sta se nalazi u header-u JSON web tokena (JWT)?",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 35,
+    "images": [],
+    "o": [
+      "Service Unavailable",
+      "Continue",
+      "Not Found",
+      "Unautorized",
+      "Created",
+      "Forbidden",
+      "OK"
+    ],
+    "q": "Statusni kod 404:",
+    "type": "single"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 36,
+    "images": [],
+    "o": [
+      "Not Found",
+      "Continue",
+      "Forbidden",
+      "Service Unavailable",
+      "Unautorized",
+      "Moved Permanently",
+      "OK"
+    ],
+    "q": "Statusni kod 403:",
+    "type": "single"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 37,
+    "images": [],
+    "o": [
+      "OPTIONS",
+      "CONNECT",
+      "TRACE",
+      "PATCH"
+    ],
+    "q": "Kojom metodom mozemo dijagnosticirati problem u komunikaciji sa serverom?",
+    "type": "single"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 38,
+    "images": [],
+    "o": [
+      "Omogućava preporuku proizvoda sličnih onima koje je kupac prethodno pregledao, ocijenio, komentarisao, kupovao.",
+      "Omogućava preporuku proizvoda koje su drugi kupci, sa sličnim preferencijama, već ocijenili. Ukoliko su kupci slični, onda će vjerovatno imati slične zahtjeve i potrebe.",
+      "Omogućava preporuku proizvoda na osnovu učestalosti zajedničke kupovine."
+    ],
+    "q": "Association rules learning (ARL)",
+    "type": "single"
+  },
+  {
+    "c": [
+      0,
+      3,
+      5,
+      6
+    ],
+    "id": 39,
+    "images": [],
+    "o": [
+      "WSDL",
+      "URI",
+      "DSL",
+      "UDDI",
+      "URL",
+      "SOAP",
+      "XML"
+    ],
+    "q": "Kljucne komponente web servisa su:",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      5
+    ],
+    "id": 40,
+    "images": [],
+    "o": [
+      "Continue",
+      "Unautorized",
+      "HTTP Version Not Supported",
+      "OK",
+      "Service Unavailable",
+      "Bad Request",
+      "Forbidden"
+    ],
+    "q": "Statusni kod 400:",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 41,
+    "images": [],
+    "o": [
+      "Olakšavanje procesa integracije",
+      "Kontinuiranu isporuku softwarea",
+      "Obradu log fajlova",
+      "Testiranje WebApi servisa"
+    ],
+    "q": "Jenkins i TeamCity, su alati za:",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 42,
+    "images": [],
+    "o": [
+      "detached mode",
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)",
+      "definisanje naziva za izvrsenje konkretnog kontejnera",
+      "starta novi kontejner",
+      "naziv image-a kojeg zelimo startati"
+    ],
+    "q": "U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (-p):",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 43,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "Kolaborativni filter nije dobar zbog raznovrsnosti sadrzaja?",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 44,
+    "images": [],
+    "o": [
+      "Signature",
+      "Padding",
+      "Encryption data",
+      "size"
+    ],
+    "q": "Šta je zadnji dio encodiranog Base64 stringa",
+    "type": "single"
+  },
+  {
+    "c": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "id": 45,
+    "images": [],
+    "o": [
+      "Moze sadrzavati razlicite vrste fajlova",
+      "Ogranicen set dostupnih API-ova",
+      "Isporucuje se u binarnom formatu",
+      "Zbog nacina kompajliranja isporucuje se u izvornom obliku",
+      "Moze dovesti do kreiranja projekta koji je dosta tesko odrzavati i nadogradjivati",
+      "Podrzava postavljenu arhitekture aplikacije",
+      "Pogodan za unit testove",
+      "Nije pogodan za dijeljenje fajlova koji ne sadrze programski kod",
+      "Nije pogodan za dodavanje dijelova koda koji su specificni za pojedine platforme"
+    ],
+    "q": "Oznaci osobine PCL-a.",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 46,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "DevOps se zasniva na LEAN?",
+    "type": "single"
+  },
+  {
+    "c": [
+      1,
+      2,
+      5
+    ],
+    "id": 47,
+    "images": [],
+    "o": [
+      "IIS",
+      "Hub",
+      "Client",
+      "Switch",
+      "WebAPI",
+      "Host"
+    ],
+    "q": "Označi komponente kroz koje možemo posmatrati DOCKER:",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 48,
+    "images": [],
+    "o": [
+      "Greske uzrokovane klijentskim akcijam",
+      "Greske nastale na serverskoj strani",
+      "Uspjesna realizacija zahtjeva",
+      "Odredjena vrsta redirekcije",
+      "Poruke informativnog karaktera"
+    ],
+    "q": "HTTP statusni kodovi grupe 2xx:",
+    "type": "single"
+  },
+  {
+    "c": [
+      5
+    ],
+    "id": 49,
+    "images": [],
+    "o": [
+      "POST",
+      "HEAD",
+      "TRACE",
+      "GET",
+      "PATCH",
+      "PUT",
+      "DELETE",
+      "CONNECT",
+      "OPTIONS"
+    ],
+    "q": "Zamjena postojeceg resursa",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 50,
+    "images": [],
+    "o": [
+      "Da",
+      "Ne"
+    ],
+    "q": "Prilikom POST zahtjeva, u polje Accept, mozemo specificirati koji format podataka očekujemo?",
+    "type": "single"
+  },
+  {
+    "c": [
+      0,
+      1
+    ],
+    "id": 51,
+    "images": [],
+    "o": [
+      "Dodavanjem odgovarajuceg atributa iznad tijela definicije",
+      "U WebApiConfig klasi",
+      "Nista od navedenog"
+    ],
+    "q": "Na koje nacine parametar mozemo proglasiti opcionalnim?",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ],
+    "id": 52,
+    "images": [],
+    "o": [
+      "CreatedAtRoute",
+      "Created",
+      "InternalServerError",
+      "Redirect",
+      "NotFound",
+      "Inserted",
+      "OK",
+      "StatusCode",
+      "Conflict",
+      "BadRequest"
+    ],
+    "q": "Oznaci helper metode:",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      6
+    ],
+    "id": 53,
+    "images": [],
+    "o": [
+      "Created",
+      "Unautorized",
+      "Not Found",
+      "OK",
+      "Continue",
+      "HTTP Version Not Supported",
+      "Internal Server Error"
+    ],
+    "q": "Statusni kod 500:",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 54,
+    "images": [],
+    "o": [
+      "Omogućava preporuku proizvoda koje su drugi kupci, sa sličnim preferencijama, već ocijenili. Ukoliko su kupci slični, onda će vjerovatno imati slične zahtjeve i potrebe.",
+      "Omogućava preporuku proizvoda na osnovu učestalosti zajedničke kupovine.",
+      "Omogućava preporuku proizvoda sličnih onima koje je kupac prethodno pregledao, ocijenio, komentarisao, kupovao."
+    ],
+    "q": "Collaborative filtering (CF)",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 55,
+    "images": [],
+    "o": [
+      "Binary JavaScript Object Notation",
+      "Bound JavaScript Oriented Network",
+      "Bilingual JavaSocket Object Network"
+    ],
+    "q": "Znacenje BSON:",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 56,
+    "images": [],
+    "o": [
+      "definisanje naziva za izvrsenje konkretnog kontejnera",
+      "starta novi kontejner",
+      "detached mode",
+      "naziv image-a kojeg zelimo startati",
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)"
+    ],
+    "q": "U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (--name FIT):",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 57,
+    "images": [],
+    "o": [
+      "DA. Iskljucivo komunicira sa ASP.NET.",
+      "NE. Moze pruzati i drugim aplikacijama."
+    ],
+    "q": "Da li WebAPI moze pruzati usluge samo ASP.NET aplikacijama?",
+    "type": "single"
+  },
+  {
+    "c": [
+      8
+    ],
+    "id": 58,
+    "images": [],
+    "o": [
+      "DELETE",
+      "TRACE",
+      "PUT",
+      "CONNECT",
+      "OPTIONS",
+      "GET",
+      "POST",
+      "HEAD",
+      "PATCH"
+    ],
+    "q": "Promjena vrijednosti odredjenih atributa resursa",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 59,
+    "images": [],
+    "o": [
+      "204",
+      "403",
+      "505",
+      "404",
+      "500",
+      "301"
+    ],
+    "q": "Koji će status code dobiti user koji se autorizovao ali nema permisija da pristupi resursu?",
+    "type": "single"
+  },
+  {
+    "c": [
+      0,
+      2,
+      4,
+      5
+    ],
+    "id": 60,
+    "images": [],
+    "o": [
+      "Zasnovan na ASP.NET",
+      "Ne može pružati servise LINUX platfomama",
+      "Framework za razvoj HTTP servisa kojima pristupaju različiti klijenti",
+      "Nije pogodan za iOS bazirane uređaje",
+      "Pružanje servisnog sloja za klijent-server desktop, mobilne i druge vrste aplikacija.",
+      "Posrednik u komunikaciji između dvije komponente/softwarea"
+    ],
+    "q": "Šta karakteriše WebAPI:",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 61,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "DevOps se zasniva na agilnim metodama, tj. na SCRUM-u?",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 62,
+    "images": [],
+    "o": [
+      "Sistem nema dovoljno informacija sa kojim bi mogao raditi, tj. ne postoji dovoljan broj ocjena proizvoda da bi se dala tacna preporuka.",
+      "Sistem sadrzi dovoljno informacija sa kojim bi mogao raditi, tj. postoji dovoljan broj ocjena proizvoda da bi se dala tacna preporuka."
+    ],
+    "q": "Koji je uzrok cold start-a?",
+    "type": "single"
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 63,
+    "images": [],
+    "o": [
+      "starta novi kontejner",
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)",
+      "detached mode",
+      "naziv image-a kojeg zelimo startati",
+      "definisanje naziva za izvrsenje konkretnog kontejnera"
+    ],
+    "q": "U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (wordpress):",
+    "type": "single"
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 64,
+    "images": [],
+    "o": [
+      "Greske uzrokovane klijentskim akcijam",
+      "Poruke informativnog karaktera",
+      "Odredjena vrsta redirekcije",
+      "Greske nastale na serverskoj strani",
+      "Uspjesna realizacija zahtjeva"
+    ],
+    "q": "HTTP statusni kodovi grupe 5xx:",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 65,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "Da li je WebAPI baziran na ASP.NET?",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 66,
+    "images": [],
+    "o": [
+      "status code",
+      "IIS Expres usmjerava na pogresnu adresu",
+      "HttpResponseMessage",
+      "IIS Nije pokrenut"
+    ],
+    "q": "Šta predstavlja Internal Server Error?",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 67,
+    "images": [],
+    "o": [
+      "CustomFilterAttribut",
+      "ExceptionFilterAttribut",
+      "OptionFilterAttribut",
+      "Base Class"
+    ],
+    "q": "Kad se kreira vlastiti filter, koju klasu moramo naslijediti?",
+    "type": "single"
+  },
+  {
+    "c": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "id": 68,
+    "images": [],
+    "o": [
+      "Moguce je dodati dijelove koda koji su specificni za pojedine platforme",
+      "Zbog nacina kompajliranja isporucuje se u izvornom obliku",
+      "Moze dovesti do kreiranja projekta koji je dosta tesko odrzavati i nadogradjivati",
+      "Moze sadrzavati razlicite vrste fajlova",
+      "Otezano izvrsenje unit testova",
+      "Isporucuje se u binarnom formatu",
+      "Dostupni su svi API-ovi",
+      "Ogranicen set dostupnih API-ova",
+      "Podrzava postavljenu arhitekture aplikacije"
+    ],
+    "q": "Oznaci osobine Shared-a.",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      0,
+      2
+    ],
+    "id": 69,
+    "images": [],
+    "o": [
+      "Predstavlja XML bazirani protokol za razmjenu poruka, odnosno protokol za komunikaciju sa Web servisom",
+      "Predstavlja protokol za komunikaciju na fizičkom sloju podataka",
+      "Definiše set pravila o strukturi sadržaja poruke",
+      "Ništa od navedenog",
+      "Predstavlja protokol za razmjenu HTML sadržaja"
+    ],
+    "q": "SOAP (Simple Object Access Protocol)",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      2,
+      3,
+      4
+    ],
+    "id": 70,
+    "images": [],
+    "o": [
+      "Kriptovan sadrzaj, potrebno je implementirati neki algoritam za dekripciju",
+      "Nema postavljenih ogranicenja u duzini stringa",
+      "Citljiv sadrzaj, ukoliko se ne implementira neki dodatni sigurnosni mehanizam",
+      "Predefinisano znacenje pojedinih znakova",
+      "Ogranicenje u duzini stringa"
+    ],
+    "q": "Osobine query string-a?",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 71,
+    "images": [],
+    "o": [
+      "HttpClient",
+      "Octopus",
+      "Docker"
+    ],
+    "q": "Za komunikaciju izmedju WebAPI i desktop ili mobilne aplikacije, koju klasu koristimo?",
+    "type": "single"
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 72,
+    "images": [],
+    "o": [
+      "Forbidden",
+      "Bad Request",
+      "Not Found",
+      "Moved Permanently",
+      "Continue",
+      "Unautorized",
+      "OK"
+    ],
+    "q": "Statusni kod 301:",
+    "type": "single"
+  },
+  {
+    "c": [
+      4
+    ],
+    "id": 73,
+    "images": [],
+    "o": [
+      "<table>",
+      "#header",
+      "<label></label>",
+      "<head>",
+      "Nista od navedenog"
+    ],
+    "q": "Oznaciti xml predefinisane tagove:",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 74,
+    "images": [],
+    "o": [
+      "Da",
+      "Ne"
+    ],
+    "q": "HttpResponseMessage se sastoji samo iz status code i poruke?",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 75,
+    "images": [],
+    "o": [
+      "POST",
+      "PATCH",
+      "TRACE",
+      "GET",
+      "HEAD",
+      "PUT",
+      "DELETE",
+      "CONNECT",
+      "OPTIONS"
+    ],
+    "q": "Dodavanje novog resursa",
+    "type": "single"
+  },
+  {
+    "c": [
+      1,
+      2
+    ],
+    "id": 76,
+    "images": [],
+    "o": [
+      "Octopus",
+      "Kibana",
+      "Logstash",
+      "Docker"
+    ],
+    "q": "Koje alate koristimo za prikupljanje, analizu i vizualizaciju obrade log fajlova?",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 77,
+    "images": [],
+    "o": [
+      "NE. Mozemo ukljuciti samo one biblioteke koje se nalaze u svim projektima.",
+      "NE. U PCL se ne moze ukljuciti nijedna biblioteka.",
+      "DA. Mozemo ukljuciti bilo koju biblioteku koje se nalazi na lokalnom disku."
+    ],
+    "q": "Da li u PCL mozemo ukljuciti bilo koju biblioteku?",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 78,
+    "images": [],
+    "o": [
+      "GET",
+      "DELETE",
+      "HEAD",
+      "POST",
+      "PATCH",
+      "OPTIONS",
+      "PUT",
+      "CONNECT",
+      "TRACE"
+    ],
+    "q": "Citanje sadrzaja resursa",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 79,
+    "images": [],
+    "o": [
+      "Greske nastale na serverskoj strani",
+      "Odredjena vrsta redirekcije",
+      "Poruke informativnog karaktera",
+      "Greske uzrokovane klijentskim akcijam",
+      "Uspjesna realizacija zahtjeva"
+    ],
+    "q": "HTTP statusni kodovi grupe 3xx:",
+    "type": "single"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 80,
+    "images": [],
+    "o": [
+      "Forbidden",
+      "OK",
+      "Created",
+      "Service Unavailable",
+      "Not Found",
+      "HTTP Version Not Supported",
+      "Continue"
+    ],
+    "q": "Statusni kod 201:",
+    "type": "single"
+  },
+  {
+    "c": [
+      0,
+      2
+    ],
+    "id": 81,
+    "images": [],
+    "o": [
+      "Content-Type",
+      "BadRequest",
+      "Accept",
+      "CreatedAtRoute",
+      "StatusCode"
+    ],
+    "q": "Formati za komunikaciju (Content Negotiation) u hederu get/post su:",
+    "type": "multiple"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 82,
+    "images": [],
+    "o": [
+      "Chrome i Firefox koriste JSON / Edge koristi XML",
+      "Svi browseri koriste JSON format kao default",
+      "Chrome i Firefox koriste XML / Edge koristi JSON"
+    ],
+    "q": "Ukoliko instaliramo bilo koji browser sa defaultnim postavkama koji format podataka se koristi?",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 83,
+    "images": [],
+    "o": [
+      "Odredjena vrsta redirekcije",
+      "Poruke informativnog karaktera",
+      "Uspjesna realizacija zahtjeva",
+      "Greske nastale na serverskoj strani",
+      "Greske uzrokovane klijentskim akcijam"
+    ],
+    "q": "HTTP statusni kodovi grupe 1xx:",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 84,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "ActionName, koristi se za davanje drugih (alternativnih) imena akcijama.",
+    "type": "single"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 85,
+    "images": [],
+    "o": [
+      "api/proizvodi/searchproizvod/vrstaID?=id",
+      "api/proizvodi/searchproizvod/{vrstaID?/vrstaID=>x.proizvodID}",
+      "api/proizvodi/searchproizvod/{vrstaID?}"
+    ],
+    "q": "Odaberi tacan nacin za pozivanje „searchproizvod“ akcije u kontroleru Proizvodi.",
+    "type": "single"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 86,
+    "images": [],
+    "o": [
+      "Detaljno obavjesti o stanju greške",
+      "Preduhitri je exception metod ako je urađen",
+      "500 - Internal server error"
+    ],
+    "q": "Šta ce nam vratiti WebAPI ako se desi greška koju servisni sloj ne prepoznaje?",
+    "type": "single"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 87,
+    "images": [],
+    "o": [
+      "50%",
+      "30%",
+      "60%",
+      "Nije je moguce izracunati jer vrijednosti nisu diskretne."
+    ],
+    "q": "Izracunati Hamming-ovu udaljenost na osnovu vrijednosti:5,3,4,4,4 - 5,2,4,3,1",
+    "type": "single"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 88,
+    "images": [],
+    "o": [
+      "CONNECT",
+      "PATCH",
+      "HEAD",
+      "OPTIONS",
+      "TRACE"
+    ],
+    "q": "Koju metodu koristimo kad zelimo znati da li posjedujemo posljednju veziju podataka dostupnih na serveru.",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 89,
+    "images": [],
+    "o": [
+      "Da",
+      "Ne"
+    ],
+    "q": "Sistemi preporuke imaju za cilj osigurati personalizaciju i kupcima ponuditi ono što odgovara njihovim potrebama.",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 90,
+    "images": [],
+    "o": [
+      "Omogućava preporuku proizvoda koje su drugi kupci, sa sličnim preferencijama, već ocijenili. Ukoliko su kupci slični, onda će vjerovatno imati slične zahtjeve i potrebe.",
+      "Omogućava preporuku proizvoda sličnih onima koje je kupac prethodno pregledao, ocijenio, komentarisao, kupovao.",
+      "Omogućava preporuku proizvoda na osnovu učestalosti zajedničke kupovine."
+    ],
+    "q": "Content-based filtering (CBF)",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 91,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "Image predstavlja sliku koja prikazuje sistem kontejnera, a obicno je jednoslojna i ne moze se modifikovati.",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 92,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "Container se ne moze posmatrati kao set procesa koji se izvrsavaju u okviru pomenutog fajl sistema. Drugim rijecima, container se ne moze posmatrati kao pokrenuti/startani image.",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 93,
+    "images": [],
+    "o": [
+      "No Content",
+      "Moved Permanently",
+      "Continue",
+      "Bad Request",
+      "OK",
+      "Created",
+      "Forbidden"
+    ],
+    "q": "Statusni kod 204:",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 94,
+    "images": [],
+    "o": [
+      "Da",
+      "Ne"
+    ],
+    "q": "Status code 204 označava da se request NEUSPJEŠNO izvršio?",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 95,
+    "images": [],
+    "o": [
+      "Vjerovatnoca kupovine posmatranog proizvoda.",
+      "Vjerovatnoca kupovine drugog proizvoda nakon kupovine prvog.",
+      "Promjena u vjerovatnoci da ce drugi proizvod biti kupljen nakon kupovine prvog."
+    ],
+    "q": "Kod association rules, sta znaci confidence?",
+    "type": "single"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 96,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "Zadnja verzija HTTP-a je 2.0.",
+    "type": "single"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 97,
+    "images": [],
+    "o": [
+      "Informacije o akcijama koje se trenutno izvrsavaju ili su se ranije izvrsavale na docker-u.",
+      "Informacije o Web servisima koji se izvrsavaju ili su se ranije izvrsavali.",
+      "Informacije o kontejnerima koji se trenutno izvrsavaju ili su se ranije izvrsavali na docker-u."
+    ],
+    "q": "Koje informacije nam daju komande docker ps i docker ps -a?",
+    "type": "single"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 98,
+    "images": [
+      {
+        "alt": "",
+        "src": "https://image.ibb.co/g782ec/3.jpg"
+      },
+      {
+        "alt": "",
+        "src": "https://image.ibb.co/efkR5H/1.jpg"
+      },
+      {
+        "alt": "",
+        "src": "https://image.ibb.co/jD5R5H/4.jpg"
+      },
+      {
+        "alt": "",
+        "src": "https://image.ibb.co/e282ec/2.jpg"
+      }
+    ],
+    "o": [
+      "A.",
+      "B.",
+      "C.",
+      "D."
+    ],
+    "q": "Izračunati sličnost na osnovu vrijednosti iz tabele.",
+    "type": "single"
+  },
+  {
+    "c": [
+      8
+    ],
+    "id": 99,
+    "images": [],
+    "o": [
+      "OPTIONS",
+      "GET",
+      "TRACE",
+      "DELETE",
+      "HEAD",
+      "POST",
+      "PUT",
+      "PATCH",
+      "CONNECT"
+    ],
+    "q": "Signal, najcesce proxy serveru, vezano za tuneliranje komunikacije (SSL)",
+    "type": "single"
+  }
+]

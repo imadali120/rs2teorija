@@ -4,9 +4,9 @@ Testovi u istom izgledu i načinu rada kao [RS1 teorija](https://github.com/imad
 
 **[Otvori testove](https://imadali120.github.io/rs2teorija/)**
 
-107 pitanja (99 iz ClassMarkera i 8 dodatnih iz fotografija / spiska ispitnih pitanja) podijeljeno je po oblastima:
+106 pitanja (98 iz ClassMarkera i 8 dodatnih iz fotografija / spiska ispitnih pitanja) podijeljeno je po oblastima:
 
-- HTTP metode i zaglavlja: 19 pitanja
+- HTTP metode i zaglavlja: 18 pitanja
 - HTTP statusni kodovi: 24 pitanja
 - Web API, rutiranje i sigurnost: 26 pitanja
 - DevOps: 8 pitanja

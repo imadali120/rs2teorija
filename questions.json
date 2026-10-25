@@ -1017,37 +1017,6 @@
   },
   {
     "c": [
-      4
-    ],
-    "id": 31,
-    "images": [],
-    "o": [
-      "PATCH",
-      "CONNECT",
-      "TRACE",
-      "OPTIONS",
-      "Nijedna od navedenih; keširanjem se upravlja HTTP zaglavljima."
-    ],
-    "q": "Koja HTTP metoda omogucava iskljucivanje cache-a?",
-    "type": "single",
-    "originalC": [
-      0
-    ],
-    "originalO": [
-      "PATCH",
-      "CONNECT",
-      "TRACE",
-      "OPTIONS"
-    ],
-    "originalQ": "Koja HTTP metoda omogucava iskljucivanje cache-a?",
-    "lesson": "HTTP metode i zaglavlja",
-    "topic": "P2 — HTTP",
-    "e": "Ne postoji HTTP metoda koja sama „isključuje cache“. Keširanjem se upravlja zaglavljima, npr. Cache-Control: no-store za zabranu pohrane. Izvorni ključ PATCH nije ispravan; PATCH služi djelimičnoj izmjeni resursa.",
-    "source": "https://www.rfc-editor.org/rfc/rfc9111.html",
-    "sectionId": 1
-  },
-  {
-    "c": [
       1
     ],
     "id": 32,
