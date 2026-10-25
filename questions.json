@@ -1,0 +1,3173 @@
+[
+  {
+    "c": [
+      6
+    ],
+    "id": 1,
+    "images": [],
+    "o": [
+      "OPTIONS",
+      "DELETE",
+      "PATCH",
+      "CONNECT",
+      "TRACE",
+      "PUT",
+      "HEAD",
+      "POST",
+      "GET"
+    ],
+    "q": "Zahtjeva samo zaglavlje koje bi se dobilo GET upitom",
+    "type": "single",
+    "originalC": [
+      6
+    ],
+    "originalO": [
+      "OPTIONS",
+      "DELETE",
+      "PATCH",
+      "CONNECT",
+      "TRACE",
+      "PUT",
+      "HEAD",
+      "POST",
+      "GET"
+    ],
+    "originalQ": "Zahtjeva samo zaglavlje koje bi se dobilo GET upitom",
+    "lesson": "Test 1",
+    "topic": "P2 — HTTP",
+    "e": "HEAD vraća zaglavlja koja bi se dobila GET zahtjevom, bez tijela odgovora.",
+    "source": null
+  },
+  {
+    "c": [
+      0,
+      2,
+      4
+    ],
+    "id": 2,
+    "images": [],
+    "o": [
+      "Kreirati klasu koja ce nasljediti ExceptionFilterAttribute klasu",
+      "Kreirati klasu koja nece nasljedjivati FilterAttribut klase",
+      "Implementirati (override) OnException metod",
+      "Kreiranu filter klasu oznaciti kao private",
+      "Registrovati kreiranu filter klasu na nekom od nivoa"
+    ],
+    "q": "Ako zelis implementirati filter za hendlanje exceptiona, sta se mora implementirati?",
+    "type": "multiple",
+    "originalC": [
+      0,
+      2,
+      4
+    ],
+    "originalO": [
+      "Kreirati klasu koja ce nasljediti ExceptionFilterAttribut klasu",
+      "Kreirati klasu koja nece nasljedjivati FilterAttribut klase",
+      "Implementirati (override) OnException metod",
+      "Kreiranu filter klasu oznaciti kao private",
+      "Registrovati kreiranu filter klasu na nekom od nivoa"
+    ],
+    "originalQ": "Ako zelis implementirati filter za hendlanje exceptiona, sta se mora implementirati?",
+    "lesson": "Test 1",
+    "topic": "P4 — Helper metode i izuzeci",
+    "e": "U ASP.NET Web API 2 kreira se javna klasa izvedena iz ExceptionFilterAttribute, override metode OnException i registracija filtera globalno, na kontroleru ili na akciji.",
+    "source": null
+  },
+  {
+    "c": [
+      5
+    ],
+    "id": 3,
+    "images": [],
+    "o": [
+      "401",
+      "403",
+      "100",
+      "202",
+      "501",
+      "503"
+    ],
+    "q": "Koji kod je za ‘Service Unavailable’ status?",
+    "type": "single",
+    "originalC": [
+      5
+    ],
+    "originalO": [
+      "401",
+      "403",
+      "100",
+      "202",
+      "501",
+      "503"
+    ],
+    "originalQ": "Koji kod je za ‘Service Unavailable’ status?",
+    "lesson": "Test 1",
+    "topic": "P2 — HTTP",
+    "e": "503 = Service Unavailable: servis je privremeno nedostupan, npr. zbog preopterećenja ili održavanja. 505 se odnosi na HTTP verziju.",
+    "source": null
+  },
+  {
+    "c": [
+      6
+    ],
+    "id": 4,
+    "images": [],
+    "o": [
+      "DELETE",
+      "PATCH",
+      "TRACE",
+      "CONNECT",
+      "PUT",
+      "POST",
+      "OPTIONS",
+      "HEAD",
+      "GET"
+    ],
+    "q": "Zahtjeva listu metoda koje podrzava",
+    "type": "single",
+    "originalC": [
+      6
+    ],
+    "originalO": [
+      "DELETE",
+      "PATCH",
+      "TRACE",
+      "CONNECT",
+      "PUT",
+      "POST",
+      "OPTIONS",
+      "HEAD",
+      "GET"
+    ],
+    "originalQ": "Zahtjeva listu metoda koje podrzava",
+    "lesson": "Test 1",
+    "topic": "P2 — HTTP",
+    "e": "OPTIONS služi za informacije o komunikacijskim mogućnostima resursa; podržane metode mogu se navesti u Allow zaglavlju.",
+    "source": null
+  },
+  {
+    "c": [
+      0,
+      1
+    ],
+    "id": 5,
+    "images": [],
+    "o": [
+      "To nije softver ili tehnologija, već način razmišljanja o razvoju softvera koji se fokusira na automatizaciju svih procesa u cilju eliminisanja potrebe za manualnim intervencijama",
+      "Predstavlja koncept koji treba premostiti procjep koji evidentno postoji između Dev i Ops sektora kompanije",
+      "Osigurava kreiranje nove vrijednosti kroz unapređenje postojećih procesa",
+      "Kroz automatizaciju, osigurava konstantan napredak svih procesa unutar kompanije"
+    ],
+    "q": "Definicija DevOps-a bi bila:",
+    "type": "multiple",
+    "originalC": [
+      0,
+      1
+    ],
+    "originalO": [
+      "To nije softver ili tehnologija, već način razmišljanja o razvoju softvera koji se fokusira na automatizaciju svih procesa u cilju eliminisanja potrebe za manualnim intervencijama",
+      "Predstavlja koncept koji treba premostiti procjep koji evidentno postoji između Dev i Ops sektora kompanije",
+      "Osigurava kreiranje nove vrijednosti kroz unapređenje postojećih procesa",
+      "Kroz automatizaciju, osigurava konstantan napredak svih procesa unutar kompanije"
+    ],
+    "originalQ": "Definicija DevOps-a bi bila:",
+    "lesson": "Test 1",
+    "topic": "P7 — DevOps",
+    "e": "Predavanje definiše DevOps kao način razmišljanja i povezivanja razvoja (Dev) s operacijama (Ops), uz automatizaciju. Posljednje dvije tvrdnje su u testu klasifikovane kao ciljevi, pa se ovdje traže prve dvije.",
+    "source": null
+  },
+  {
+    "c": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": 6,
+    "images": [],
+    "o": [
+      "POST - služi za izmjenu objekta",
+      "DELETE - Brisanje podataka sa servera",
+      "HEAD - Čitanje zaglavlja",
+      "PUT - služi za dodavanje novog resursa",
+      "PATCH - Izmjena pojedinih atributa objekta",
+      "GET - Čita podatke sa servera"
+    ],
+    "q": "Označi tačne opise HTTP metoda:",
+    "type": "multiple",
+    "originalC": [
+      1,
+      5
+    ],
+    "originalO": [
+      "POST - služi za izmjenu objekta",
+      "DELETE - Brisanje podataka sa servera",
+      "HEAD - Čitanje zaglavlja",
+      "PUT - služi za dodavanje novog resursa",
+      "PATCH - Izmjena pojedinih atributa objekta",
+      "GET - Čita podatke sa servera"
+    ],
+    "originalQ": "Označiti najćešće korištene HTTP metode",
+    "lesson": "Test 1",
+    "topic": "P2 — HTTP",
+    "e": "Izvorni ključ priznaje samo DELETE i GET, iako su opisi HEAD i PATCH također tačni. PUT može kreirati resurs na poznatom URI-ju ili zamijeniti postojeći. Provjereni režim zato precizira da se biraju tačni opisi, a ne neodređeno „najčešće“ metode.",
+    "source": "https://www.rfc-editor.org/rfc/rfc9110.html"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 7,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "VSO je centralizovan",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "DA",
+      "NE"
+    ],
+    "originalQ": "VSO je centralizovan",
+    "lesson": "Test 1",
+    "topic": "P7 — DevOps",
+    "e": "Izvorni test očekuje DA. VSO je centralno hostovan servis za timski rad, ali to ne znači da je svaki njegov sistem kontrole verzija centralizovan: Git je distribuiran, TFVC centralizovan.",
+    "source": null
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 8,
+    "images": [],
+    "o": [
+      "Continue",
+      "HTTP Version Not Supported",
+      "Internal Server Error",
+      "Unauthorized",
+      "Bad Request",
+      "Moved Permanently",
+      "OK"
+    ],
+    "q": "Statusni kod 401:",
+    "type": "single",
+    "originalC": [
+      3
+    ],
+    "originalO": [
+      "Continue",
+      "HTTP Version Not Supported",
+      "Internal Server Error",
+      "Unautorized",
+      "Bad Request",
+      "Moved Permanently",
+      "OK"
+    ],
+    "originalQ": "Statusni kod 401:",
+    "lesson": "Test 1",
+    "topic": "P2 — HTTP",
+    "e": "401 Unauthorized: zahtjev nema valjane autentifikacijske podatke. Za prijavljenog korisnika bez odgovarajućih dozvola tipično se koristi 403.",
+    "source": null
+  },
+  {
+    "c": [
+      4
+    ],
+    "id": 9,
+    "images": [],
+    "o": [
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)",
+      "naziv image-a kojeg zelimo startati",
+      "detached mode",
+      "definisanje naziva za izvrsenje konkretnog kontejnera",
+      "starta novi kontejner"
+    ],
+    "q": "U komandi \"docker run -d --name FIT -p 80:8080 wordpress\" (docker run):",
+    "type": "single",
+    "originalC": [
+      4
+    ],
+    "originalO": [
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)",
+      "naziv image-a kojeg zelimo startati",
+      "detached mode",
+      "definisanje naziva za izvrsenje konkretnog kontejnera",
+      "starta novi kontejner"
+    ],
+    "originalQ": "U komandi \"docker run -d --name FIT -p 80:8080 wordpress\" (docker run):",
+    "lesson": "Test 1",
+    "topic": "P8 — Docker",
+    "e": "docker run kreira i pokreće novi kontejner iz odabranog image-a. Za pokretanje već kreiranog, zaustavljenog kontejnera koristi se docker start.",
+    "source": null
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 10,
+    "images": [],
+    "o": [
+      "Continue",
+      "HTTP Version Not Supported",
+      "Forbidden",
+      "OK",
+      "Internal Server Error",
+      "Internal Server Error",
+      "Created"
+    ],
+    "q": "Statusni kod 200:",
+    "type": "single",
+    "originalC": [
+      3
+    ],
+    "originalO": [
+      "Continue",
+      "HTTP Version Not Supported",
+      "Forbidden",
+      "OK",
+      "Internal Server Error",
+      "Internal Server Error",
+      "Created"
+    ],
+    "originalQ": "Statusni kod 200:",
+    "lesson": "Test 1",
+    "topic": "P2 — HTTP",
+    "e": "200 OK označava uspješno izvršen zahtjev.",
+    "source": null
+  },
+  {
+    "c": [
+      4
+    ],
+    "id": 11,
+    "images": [],
+    "o": [
+      "OK",
+      "Moved Permanently",
+      "No Content",
+      "Created",
+      "Continue",
+      "Not Found",
+      "Unauthorized"
+    ],
+    "q": "Statusni kod 100:",
+    "type": "single",
+    "originalC": [
+      4
+    ],
+    "originalO": [
+      "OK",
+      "Moved Permanently",
+      "No Content",
+      "Created",
+      "Continue",
+      "Not Found",
+      "Unautorized"
+    ],
+    "originalQ": "Statusni kod 100:",
+    "lesson": "Test 1",
+    "topic": "P2 — HTTP",
+    "e": "100 Continue je privremeni, informativni odgovor: klijent može nastaviti slati zahtjev.",
+    "source": null
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 12,
+    "images": [],
+    "o": [
+      "starta novi kontejner",
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)",
+      "detached mode",
+      "definisanje naziva za izvrsenje konkretnog kontejnera",
+      "naziv image-a kojeg zelimo startati"
+    ],
+    "q": "U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (-d):",
+    "type": "single",
+    "originalC": [
+      2
+    ],
+    "originalO": [
+      "starta novi kontejner",
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)",
+      "detached mode",
+      "definisanje naziva za izvrsenje konkretnog kontejnera",
+      "naziv image-a kojeg zelimo startati"
+    ],
+    "originalQ": "U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (-d):",
+    "lesson": "Test 1",
+    "topic": "P8 — Docker",
+    "e": "-d označava detached mode: kontejner radi u pozadini, bez vezivanja terminala za njegov izlaz.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 13,
+    "images": [],
+    "o": [
+      "20%",
+      "Nije je moguce izracunati jer vrijednosti nisu diskretne.",
+      "30%",
+      "70%"
+    ],
+    "q": "Izracunati Hamming-ovu udaljenost na osnovu vrijednosti:2.6, -3.1, 2.1, 4.9, -2.5",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "20%",
+      "Nije je moguce izracunati jer vrijednosti nisu diskretne.",
+      "30%",
+      "70%"
+    ],
+    "originalQ": "Izracunati Hamming-ovu udaljenost na osnovu vrijednosti:2.6, -3.1, 2.1, 4.9, -2.5",
+    "lesson": "Test 1",
+    "topic": "P9 — Sistemi preporuke",
+    "e": "Izvorni test očekuje odgovor da vrijednosti nisu diskretne. Preciznije: zadatak daje samo jedan niz, pa nedostaje drugi niz za poređenje. Hammingova udaljenost broji nejednake pozicije u dva niza jednake dužine; sama decimalna notacija nije dovoljan matematički razlog da poređenje bude nemoguće.",
+    "source": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.hamming.html"
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 14,
+    "images": [],
+    "o": [
+      "POST",
+      "CONNECT",
+      "TRACE",
+      "DELETE",
+      "OPTIONS",
+      "PUT",
+      "GET",
+      "HEAD",
+      "PATCH"
+    ],
+    "q": "Uklanjanje resursa",
+    "type": "single",
+    "originalC": [
+      3
+    ],
+    "originalO": [
+      "POST",
+      "CONNECT",
+      "TRACE",
+      "DELETE",
+      "OPTIONS",
+      "PUT",
+      "GET",
+      "HEAD",
+      "PATCH"
+    ],
+    "originalQ": "Uklanjanje resursa",
+    "lesson": "Test 1",
+    "topic": "P2 — HTTP",
+    "e": "DELETE zahtijeva uklanjanje resursa na zadatom URI-ju.",
+    "source": null
+  },
+  {
+    "c": [
+      4
+    ],
+    "id": 15,
+    "images": [],
+    "o": [
+      "Uspjesna realizacija zahtjeva",
+      "Greske nastale na serverskoj strani",
+      "Poruke informativnog karaktera",
+      "Odredjena vrsta redirekcije",
+      "Greske uzrokovane klijentskim akcijam"
+    ],
+    "q": "HTTP statusni kodovi grupe 4xx:",
+    "type": "single",
+    "originalC": [
+      4
+    ],
+    "originalO": [
+      "Uspjesna realizacija zahtjeva",
+      "Greske nastale na serverskoj strani",
+      "Poruke informativnog karaktera",
+      "Odredjena vrsta redirekcije",
+      "Greske uzrokovane klijentskim akcijam"
+    ],
+    "originalQ": "HTTP statusni kodovi grupe 4xx:",
+    "lesson": "Test 1",
+    "topic": "P2 — HTTP",
+    "e": "4xx označava greške povezane s klijentskim zahtjevom: npr. 400, 401, 403 i 404.",
+    "source": null
+  },
+  {
+    "c": [
+      0,
+      1
+    ],
+    "id": 16,
+    "images": [],
+    "o": [
+      "Docker",
+      "Octopus",
+      "Kibana",
+      "Logstash"
+    ],
+    "q": "Koje alate koristimo za kontinuiranu isporuku?",
+    "type": "multiple",
+    "originalC": [
+      0,
+      1
+    ],
+    "originalO": [
+      "Docker",
+      "Octopus",
+      "Kibana",
+      "Logstash"
+    ],
+    "originalQ": "Koje alate koristimo za kontinuiranu isporuku?",
+    "lesson": "Test 1",
+    "topic": "P7 — DevOps",
+    "e": "P7, slajd 20, navodi Octopus za kontinuiranu isporuku i značaj Dockera u tom procesu. Kibana i Logstash pripadaju obradi i analizi logova.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 17,
+    "images": [],
+    "o": [
+      "[    { \"Indeks\": 110011, \"ImePrezime\": \"Marko Markovic\", \"Aktivan\": true },    { \"Indeks\": 110022, \"ImePrezime\": \"Mujo Mujic\", \"Aktivan\": false },    { \"Indeks\": 110033, \"ImePrezime\": \"Ivan Ivanic\", \"Aktivan\": false }]",
+      "[    { <Indeks> 110011, <ImePrezime> \"Marko Markovic\", <Aktivan> True },    { <Indeks> 110022, <ImePrezime> \"Mujo Mujic\", <Aktivan> False },    { <Indeks> 110033, <ImePrezime> \"Ivan Ivanic\", <Aktivan> False }]",
+      "[    { \"Indeks 110011\", \"ImePrezime Marko Markovic\", “Aktivan True\" },    { \"Indeks  110022\", \"ImePrezime Mujo Mujic\", “Aktivan False\" },    { \"Indeks  110033\", \"ImePrezime Ivan Ivanic\", “Aktivan False\" }]"
+    ],
+    "q": "Koji je validan format JSON-a?",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "[    { \"Indeks\": 110011, \"ImePrezime\": \"Marko Markovic\", “Aktivan”: True },    { \"Indeks\": 110022, \"ImePrezime\": \"Mujo Mujic\", “Aktivan”: False },    { \"Indeks\": 110033, \"ImePrezime\": \"Ivan Ivanic\", “Aktivan”: False }]",
+      "[    { <Indeks> 110011, <ImePrezime> \"Marko Markovic\", <Aktivan> True },    { <Indeks> 110022, <ImePrezime> \"Mujo Mujic\", <Aktivan> False },    { <Indeks> 110033, <ImePrezime> \"Ivan Ivanic\", <Aktivan> False }]",
+      "[    { \"Indeks 110011\", \"ImePrezime Marko Markovic\", “Aktivan True\" },    { \"Indeks  110022\", \"ImePrezime Mujo Mujic\", “Aktivan False\" },    { \"Indeks  110033\", \"ImePrezime Ivan Ivanic\", “Aktivan False\" }]"
+    ],
+    "originalQ": "Koji je validan format JSON-a?",
+    "lesson": "Test 1",
+    "topic": "P3 — Rutiranje i formati",
+    "e": "JSON koristi obične dvostruke navodnike za nazive svojstava i stringove, a logičke vrijednosti pišu se true i false malim slovima. Prva izvorna opcija ima pogrešne tipografske navodnike i True/False; u provjerenom režimu to je ispravljeno.",
+    "source": "https://www.rfc-editor.org/rfc/rfc8259.html"
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 18,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "Container se moze posmatrati kao set procesa koji se izvrsavaju u okviru pomenutog fajl sistema. Drugim rijecima, container se moze posmatrati kao pokrenuti/startani image.",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "DA",
+      "NE"
+    ],
+    "originalQ": "Container se moze posmatrati kao set procesa koji se izvrsavaju u okviru pomenutog fajl sistema. Drugim rijecima, container se moze posmatrati kao pokrenuti/startani image.",
+    "lesson": "Test 1",
+    "topic": "P8 — Docker",
+    "e": "Kontejner je instanca image-a s procesima koji se izvršavaju u njegovom izolovanom okruženju. Image je osnova, kontejner je pokrenuta instanca.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 19,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "NoContent znaci da zahtjevani resurs ne postoji, a najcesce se koristi kod DELETE metode.",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "DA",
+      "NE"
+    ],
+    "originalQ": "NoContent znaci da zahtjevani resurs ne postoji, a najcesce se koristi kod DELETE metode.",
+    "lesson": "Test 1",
+    "topic": "P2 — HTTP",
+    "e": "Izvorni ključ je pogrešan: 204 No Content znači uspješno izvršen zahtjev bez tijela odgovora. Ne znači da resurs ne postoji; za to se uobičajeno koristi 404. Nakon uspješnog DELETE zahtjeva često se vraća 204.",
+    "source": "https://www.rfc-editor.org/rfc/rfc9110.html"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 20,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "NoContent znaci da zahtjevani resurs ne postoji, a najcesce se koristi kod GET metode",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "DA",
+      "NE"
+    ],
+    "originalQ": "NoContent znaci da zahtjevani resurs ne postoji, a najcesce se koristi kod GET metode",
+    "lesson": "Test 1",
+    "topic": "P2 — HTTP",
+    "e": "Tvrdnja je netačna: No Content opisuje uspjeh bez tijela odgovora, a ne nepostojanje resursa. Nije status vezan isključivo za GET ili DELETE.",
+    "source": null
+  },
+  {
+    "c": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "id": 21,
+    "images": [],
+    "o": [
+      "Postavljanje razvojnih okruzenja je dosta brzo I unificirano",
+      "Brza isporuka kvalitetnog softvera",
+      "Nije pogodan za dijeljenje fajlova koji ne sadrze programski kod",
+      "Minimizira potencijalne konflikte izmedju aplikacija",
+      "Isporucuje se u binarnom formatu",
+      "Jednostavno kretanje softvera kroz razlicita okruzenja",
+      "Zbog nacina kompajliranja isporucuje se u izvornom obliku"
+    ],
+    "q": "Osobine dockera:",
+    "type": "multiple",
+    "originalC": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "originalO": [
+      "Postavljanje razvojnih okruzenja je dosta brzo I unificirano",
+      "Brza isporuka kvalitetnog softvera",
+      "Nije pogodan za dijeljenje fajlova koji ne sadrze programski kod",
+      "Minimizira potencijalne konflikte izmedju aplikacija",
+      "Isporucuje se u binarnom formatu",
+      "Jednostavno kretanje softvera kroz razlicita okruzenja",
+      "Zbog nacina kompajliranja isporucuje se u izvornom obliku"
+    ],
+    "originalQ": "Osobine dockera:",
+    "lesson": "Test 2",
+    "topic": "P8 — Docker",
+    "e": "P8, slajd 8: Docker olakšava jednako postavljanje razvojnih okruženja, smanjuje konflikte, olakšava prelazak između okruženja i ubrzava isporuku. Tvrdnje o PCL-u i načinu kompajliranja ovdje su distraktori.",
+    "source": null
+  },
+  {
+    "c": [
+      4
+    ],
+    "id": 22,
+    "images": [],
+    "o": [
+      "AtionName()",
+      "HttpResponseMessage",
+      "New URI(\"api/url\")",
+      "GetResponse()",
+      "HttpClient"
+    ],
+    "q": "Preko objekta koje klase možemo pozivati druge api metode",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "AtionName()",
+      "HttpResponseMessage",
+      "New URI(\"api/url\")",
+      "GetResponse()"
+    ],
+    "originalQ": "Preko objekta koje klase možemo pozivati druge api metode",
+    "lesson": "Test 2",
+    "topic": "P4 — Helper metode i izuzeci",
+    "e": "Za slanje HTTP zahtjeva koristi se HttpClient. HttpResponseMessage predstavlja primljeni HTTP odgovor. Izvorni test greškom označava HttpResponseMessage; provjereni režim dodaje HttpClient kao tačnu opciju.",
+    "source": "https://learn.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 23,
+    "images": [],
+    "o": [
+      "301",
+      "401",
+      "404",
+      "204",
+      "500"
+    ],
+    "q": "Koji će status code dobiti user koji se nije autorizovao, a pokušava pristupiti resursu?",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "301",
+      "401",
+      "404",
+      "204",
+      "500"
+    ],
+    "originalQ": "Koji će status code dobiti user koji se nije autorizovao, a pokušava pristupiti resursu?",
+    "lesson": "Test 2",
+    "topic": "P2 — HTTP",
+    "e": "401 označava nedostajuće ili nevaljane autentifikacijske podatke. U pitanju se izraz „nije autorizovao“ koristi neprecizno u značenju „nije autentifikovan“.",
+    "source": null
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 24,
+    "images": [],
+    "o": [
+      "Created",
+      "Continue",
+      "OK",
+      "Service Unavailable",
+      "Moved Permanently",
+      "Unauthorized",
+      "HTTP Version Not Supported"
+    ],
+    "q": "Statusni kod 503:",
+    "type": "single",
+    "originalC": [
+      3
+    ],
+    "originalO": [
+      "Created",
+      "Continue",
+      "OK",
+      "Service Unavailable",
+      "Moved Permanently",
+      "Unautorized",
+      "HTTP Version Not Supported"
+    ],
+    "originalQ": "Statusni kod 503:",
+    "lesson": "Test 2",
+    "topic": "P2 — HTTP",
+    "e": "503 Service Unavailable: server trenutno ne može obraditi zahtjev, npr. zbog opterećenja ili održavanja.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 25,
+    "images": [],
+    "o": [
+      "JavaSource Object Negotiation",
+      "JavaScript Object Notation",
+      "JavaScript Oriented Network",
+      "JavaSocket Object Network"
+    ],
+    "q": "Znacenje JSON:",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "JavaSource Object Negotiation",
+      "JavaScript Object Notation",
+      "JavaScript Oriented Network",
+      "JavaSocket Object Network"
+    ],
+    "originalQ": "Znacenje JSON:",
+    "lesson": "Test 2",
+    "topic": "P1 — Uvod / web servisi",
+    "e": "JSON = JavaScript Object Notation. To je tekstualni format podataka, nezavisan od jezika aplikacije.",
+    "source": null
+  },
+  {
+    "c": [
+      4
+    ],
+    "id": 26,
+    "images": [],
+    "o": [
+      "OK",
+      "Not Found",
+      "Forbidden",
+      "Unauthorized",
+      "HTTP Version Not Supported",
+      "Internal Server Error",
+      "Continue"
+    ],
+    "q": "Statusni kod 505:",
+    "type": "single",
+    "originalC": [
+      4
+    ],
+    "originalO": [
+      "OK",
+      "Not Found",
+      "Forbidden",
+      "Unautorized",
+      "HTTP Version Not Supported",
+      "Internal Server Error",
+      "Continue"
+    ],
+    "originalQ": "Statusni kod 505:",
+    "lesson": "Test 2",
+    "topic": "P2 — HTTP",
+    "e": "505 HTTP Version Not Supported: server ne podržava HTTP verziju korištenu u zahtjevu. Trik za pamćenje: 505 → V → verzija.",
+    "source": null
+  },
+  {
+    "c": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      8
+    ],
+    "id": 27,
+    "images": [],
+    "o": [
+      "Jednostavnija migracija na novu verziju",
+      "Ponovna iskoristivost i prenosivost",
+      "Isporučuje se u izvornom obliku",
+      "Zahtjevno održavanje radi velikog broja licenci",
+      "Dijeljenje jednog operatovnog sistema",
+      "Može raditi na različitim platformama: VM, cloudu, ...",
+      "Samostalnost okruženja",
+      "Nije pogodan za PCL projekte",
+      "Jednostavno upravljanje"
+    ],
+    "q": "Označiti tvrdnje koje odlikuju DOCKER:",
+    "type": "multiple",
+    "originalC": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      8
+    ],
+    "originalO": [
+      "Jednostavnija migracija na novu verziju",
+      "Ponovna iskoristivost i prenosivost",
+      "Isporučuje se u izvornom obliku",
+      "Zahtjevno održavanje radi velikog broja licenci",
+      "Dijeljenje jednog operatovnog sistema",
+      "Može raditi na različitim platformama: VM, cloudu, ...",
+      "Samostalnost okruženja",
+      "Nije pogodan za PCL projekte",
+      "Jednostavno upravljanje"
+    ],
+    "originalQ": "Označiti tvrdnje koje odlikuju DOCKER:",
+    "lesson": "Test 2",
+    "topic": "P8 — Docker",
+    "e": "P8, slajd 9: migracija, prenosivost, zajednički OS, različite infrastrukture, samostalnost okruženja i upravljanje su navedene prednosti. Preciznije, kontejneri dijele kernel host sistema.",
+    "source": null
+  },
+  {
+    "c": [
+      4
+    ],
+    "id": 28,
+    "images": [],
+    "o": [
+      "CONNECT",
+      "HEAD",
+      "PUT",
+      "OPTIONS",
+      "TRACE",
+      "GET",
+      "POST",
+      "PATCH",
+      "DELETE"
+    ],
+    "q": "Zahtjeva vise detalja o obavljenim akcijama",
+    "type": "single",
+    "originalC": [
+      4
+    ],
+    "originalO": [
+      "CONNECT",
+      "HEAD",
+      "PUT",
+      "OPTIONS",
+      "TRACE",
+      "GET",
+      "POST",
+      "PATCH",
+      "DELETE"
+    ],
+    "originalQ": "Zahtjeva vise detalja o obavljenim akcijama",
+    "lesson": "Test 2",
+    "topic": "P2 — HTTP",
+    "e": "Očekivani odgovor je TRACE: dijagnostički loop-back zahtjeva omogućava uvid u poruku primljenu na odredištu. Izvorna formulacija „detalji o akcijama“ je preširoka.",
+    "source": null
+  },
+  {
+    "c": [
+      0,
+      1
+    ],
+    "id": 29,
+    "images": [],
+    "o": [
+      "Osigurati kreiranje nove vrijednosti kroz unapređenje postojećih procesa",
+      "Kroz automatizaciju, osigurati konstantan napredak svih procesa unutar kompanije",
+      "Predstavljati koncept koji treba premostiti procjep koji evidentno postoji između Dev i Ops sektora kompanije",
+      "Postati način razmišljanja o razvoju softvera koji se fokusira na automatizaciju svih procesa u cilju eliminisanja potrebe za manualnim intervencijama"
+    ],
+    "q": "Ciljevi DevOps-a su:",
+    "type": "multiple",
+    "originalC": [
+      0,
+      1
+    ],
+    "originalO": [
+      "Osigurati kreiranje nove vrijednosti kroz unapređenje postojećih procesa",
+      "Kroz automatizaciju, osigurati konstantan napredak svih procesa unutar kompanije",
+      "Predstavljati koncept koji treba premostiti procjep koji evidentno postoji između Dev i Ops sektora kompanije",
+      "Postati način razmišljanja o razvoju softvera koji se fokusira na automatizaciju svih procesa u cilju eliminisanja potrebe za manualnim intervencijama"
+    ],
+    "originalQ": "Ciljevi DevOps-a su:",
+    "lesson": "Test 2",
+    "topic": "P7 — DevOps",
+    "e": "P7 navodi kreiranje nove vrijednosti unapređenjem procesa i kontinuirani napredak kroz automatizaciju kao ciljeve. Preostale tvrdnje opisuju sam koncept.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 30,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "Docker image sastoji se od nepromjenjivih slojeva; izmjene kontejnera zapisuju se u zaseban zapisivi sloj.",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "DA",
+      "NE"
+    ],
+    "originalQ": "Image predstavlja kolekciju fajlova i meta podataka koji sacinjavaju root fajl sistem kontejnera, a obicno su sastavljeni od vise slojeva od kojih se neki mogu modifikovati.",
+    "lesson": "Test 2",
+    "topic": "P8 — Docker",
+    "e": "Predavanje P8, slajd 11, koristi pojednostavljenu tvrdnju da se neki slojevi image-a mogu modifikovati. Precizno: image slojevi su nepromjenjivi, a kontejner dobija zaseban zapisivi sloj; novi image može se izgraditi s novim slojevima.",
+    "source": "https://docs.docker.com/engine/storage/"
+  },
+  {
+    "c": [
+      4
+    ],
+    "id": 31,
+    "images": [],
+    "o": [
+      "PATCH",
+      "CONNECT",
+      "TRACE",
+      "OPTIONS",
+      "Nijedna od navedenih; keširanjem se upravlja HTTP zaglavljima."
+    ],
+    "q": "Koja HTTP metoda omogucava iskljucivanje cache-a?",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "PATCH",
+      "CONNECT",
+      "TRACE",
+      "OPTIONS"
+    ],
+    "originalQ": "Koja HTTP metoda omogucava iskljucivanje cache-a?",
+    "lesson": "Test 2",
+    "topic": "P2 — HTTP",
+    "e": "Ne postoji HTTP metoda koja sama „isključuje cache“. Keširanjem se upravlja zaglavljima, npr. Cache-Control: no-store za zabranu pohrane. Izvorni ključ PATCH nije ispravan; PATCH služi djelimičnoj izmjeni resursa.",
+    "source": "https://www.rfc-editor.org/rfc/rfc9111.html"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 32,
+    "images": [],
+    "o": [
+      "Kreira se Akcija u kontroleru koja sadrzi sve atribute procedure.",
+      "Kreira se Complex Type klasa koja sadrzi atribute koje vraca i sama procedura.",
+      "Kreira se static klasa koja sadrzi atribute koje vraca i sama procedura."
+    ],
+    "q": "Kod mapiranja procedura, sta se kreira?",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "Kreira se Akcija u kontroleru koja sadrzi sve atribute procedure.",
+      "Kreira se Complex Type klasa koja sadrzi atribute koje vraca i sama procedura.",
+      "Kreira se static klasa koja sadrzi atribute koje vraca i sama procedura."
+    ],
+    "originalQ": "Kod mapiranja procedura, sta se kreira?",
+    "lesson": "Test 2",
+    "topic": "P4 — Helper metode i izuzeci",
+    "e": "U kontekstu Entity Framework Database First mapiranja rezultata procedure može se generisati Complex Type čija svojstva odgovaraju kolonama rezultata procedure. Ovo je kontekst nastave, a ne opće pravilo svake ORM biblioteke.",
+    "source": null
+  },
+  {
+    "c": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    "id": 33,
+    "images": [],
+    "o": [
+      "DELETE",
+      "PATCH",
+      "TRACE",
+      "POST",
+      "PUT",
+      "XML",
+      "OPTIONS",
+      "GET"
+    ],
+    "q": "Oznaci standardne HTTP metode:",
+    "type": "multiple",
+    "originalC": [
+      0,
+      3,
+      4,
+      7
+    ],
+    "originalO": [
+      "DELETE",
+      "PATCH",
+      "TRACE",
+      "POST",
+      "PUT",
+      "XML",
+      "OPTIONS",
+      "GET"
+    ],
+    "originalQ": "Oznaci standardne HTTP metode:",
+    "lesson": "Test 2",
+    "topic": "P2 — HTTP",
+    "e": "DELETE, PATCH, TRACE, POST, PUT, OPTIONS i GET su standardizovane HTTP metode; XML je format podataka. Izvorni ključ priznaje samo četiri česte CRUD metode i zato nije potpun.",
+    "source": "https://www.iana.org/assignments/http-methods/http-methods.xhtml"
+  },
+  {
+    "c": [
+      2,
+      3
+    ],
+    "id": 34,
+    "images": [],
+    "o": [
+      "Predefinisani XML tagovi",
+      "MD5 kljuc za lozinku",
+      "Koristeni algoritmi i kljucevi",
+      "Meta podaci"
+    ],
+    "q": "Sta se nalazi u header-u JSON web tokena (JWT)?",
+    "type": "multiple",
+    "originalC": [
+      2,
+      3
+    ],
+    "originalO": [
+      "Predefinisani XML tagovi",
+      "MD5 kljuc za lozinku",
+      "Koristeni algoritmi i kljucevi",
+      "Meta podaci"
+    ],
+    "originalQ": "Sta se nalazi u header-u JSON web tokena (JWT)?",
+    "lesson": "Test 2",
+    "topic": "P5 — Sigurnost / JWT",
+    "e": "P5, slajd 13, navodi metapodatke te algoritme i ključeve. Preciznije, JWS header tipično ima alg i typ, a može imati identifikator ključa kid ili podatke javnog ključa; privatni ključ i lozinka ne pripadaju zaglavlju.",
+    "source": null
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 35,
+    "images": [],
+    "o": [
+      "Service Unavailable",
+      "Continue",
+      "Not Found",
+      "Unauthorized",
+      "Created",
+      "Forbidden",
+      "OK"
+    ],
+    "q": "Statusni kod 404:",
+    "type": "single",
+    "originalC": [
+      2
+    ],
+    "originalO": [
+      "Service Unavailable",
+      "Continue",
+      "Not Found",
+      "Unautorized",
+      "Created",
+      "Forbidden",
+      "OK"
+    ],
+    "originalQ": "Statusni kod 404:",
+    "lesson": "Test 2",
+    "topic": "P2 — HTTP",
+    "e": "404 Not Found: server nije pronašao traženi resurs ili ne želi otkriti da postoji.",
+    "source": null
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 36,
+    "images": [],
+    "o": [
+      "Not Found",
+      "Continue",
+      "Forbidden",
+      "Service Unavailable",
+      "Unauthorized",
+      "Moved Permanently",
+      "OK"
+    ],
+    "q": "Statusni kod 403:",
+    "type": "single",
+    "originalC": [
+      2
+    ],
+    "originalO": [
+      "Not Found",
+      "Continue",
+      "Forbidden",
+      "Service Unavailable",
+      "Unautorized",
+      "Moved Permanently",
+      "OK"
+    ],
+    "originalQ": "Statusni kod 403:",
+    "lesson": "Test 2",
+    "topic": "P2 — HTTP",
+    "e": "403 Forbidden: server razumije zahtjev, ali odbija pristup; tipičan primjer je prijavljen korisnik bez potrebnih dozvola.",
+    "source": null
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 37,
+    "images": [],
+    "o": [
+      "OPTIONS",
+      "CONNECT",
+      "TRACE",
+      "PATCH"
+    ],
+    "q": "Kojom metodom mozemo dijagnosticirati problem u komunikaciji sa serverom?",
+    "type": "single",
+    "originalC": [
+      2
+    ],
+    "originalO": [
+      "OPTIONS",
+      "CONNECT",
+      "TRACE",
+      "PATCH"
+    ],
+    "originalQ": "Kojom metodom mozemo dijagnosticirati problem u komunikaciji sa serverom?",
+    "lesson": "Test 2",
+    "topic": "P2 — HTTP",
+    "e": "TRACE je dijagnostička metoda koja traži povrat primljene poruke radi provjere puta zahtjeva.",
+    "source": null
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 38,
+    "images": [],
+    "o": [
+      "Omogućava preporuku proizvoda sličnih onima koje je kupac prethodno pregledao, ocijenio, komentarisao, kupovao.",
+      "Omogućava preporuku proizvoda koje su drugi kupci, sa sličnim preferencijama, već ocijenili. Ukoliko su kupci slični, onda će vjerovatno imati slične zahtjeve i potrebe.",
+      "Omogućava preporuku proizvoda na osnovu učestalosti zajedničke kupovine."
+    ],
+    "q": "Association rules learning (ARL)",
+    "type": "single",
+    "originalC": [
+      2
+    ],
+    "originalO": [
+      "Omogućava preporuku proizvoda sličnih onima koje je kupac prethodno pregledao, ocijenio, komentarisao, kupovao.",
+      "Omogućava preporuku proizvoda koje su drugi kupci, sa sličnim preferencijama, već ocijenili. Ukoliko su kupci slični, onda će vjerovatno imati slične zahtjeve i potrebe.",
+      "Omogućava preporuku proizvoda na osnovu učestalosti zajedničke kupovine."
+    ],
+    "originalQ": "Association rules learning (ARL)",
+    "lesson": "Test 2",
+    "topic": "P9 — Sistemi preporuke",
+    "e": "ARL traži obrasce zajedničke kupovine: korisnicima koji kupe X često se preporučuje Y koji se kupuje uz X.",
+    "source": null
+  },
+  {
+    "c": [
+      0,
+      3,
+      5,
+      6
+    ],
+    "id": 39,
+    "images": [],
+    "o": [
+      "WSDL",
+      "URI",
+      "DSL",
+      "UDDI",
+      "URL",
+      "SOAP",
+      "XML"
+    ],
+    "q": "Kljucne komponente web servisa su:",
+    "type": "multiple",
+    "originalC": [
+      0,
+      3,
+      5,
+      6
+    ],
+    "originalO": [
+      "WSDL",
+      "URI",
+      "DSL",
+      "UDDI",
+      "URL",
+      "SOAP",
+      "XML"
+    ],
+    "originalQ": "Kljucne komponente web servisa su:",
+    "lesson": "Test 2",
+    "topic": "P1 — Uvod / web servisi",
+    "e": "U kontekstu klasičnih SOAP web servisa, predavanje P1 navodi XML, SOAP, WSDL i UDDI. To nije univerzalna obavezna lista za svaki savremeni REST API.",
+    "source": null
+  },
+  {
+    "c": [
+      5
+    ],
+    "id": 40,
+    "images": [],
+    "o": [
+      "Continue",
+      "Unauthorized",
+      "HTTP Version Not Supported",
+      "OK",
+      "Service Unavailable",
+      "Bad Request",
+      "Forbidden"
+    ],
+    "q": "Statusni kod 400:",
+    "type": "single",
+    "originalC": [
+      5
+    ],
+    "originalO": [
+      "Continue",
+      "Unautorized",
+      "HTTP Version Not Supported",
+      "OK",
+      "Service Unavailable",
+      "Bad Request",
+      "Forbidden"
+    ],
+    "originalQ": "Statusni kod 400:",
+    "lesson": "Test 2",
+    "topic": "P2 — HTTP",
+    "e": "400 Bad Request: server ne može ili ne želi obraditi zahtjev zbog problema u klijentskom zahtjevu.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 41,
+    "images": [],
+    "o": [
+      "Olakšavanje procesa integracije",
+      "Kontinuiranu isporuku softwarea",
+      "Obradu log fajlova",
+      "Testiranje WebApi servisa"
+    ],
+    "q": "Jenkins i TeamCity, su alati za:",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "Olakšavanje procesa integracije",
+      "Kontinuiranu isporuku softwarea",
+      "Obradu log fajlova",
+      "Testiranje WebApi servisa"
+    ],
+    "originalQ": "Jenkins i TeamCity, su alati za:",
+    "lesson": "Test 3",
+    "topic": "P7 — DevOps",
+    "e": "P7, slajd 19, navodi Jenkins i TeamCity za kontinuiranu integraciju: povezivanje komponenti, build i testove.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 42,
+    "images": [],
+    "o": [
+      "detached mode",
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)",
+      "definisanje naziva za izvrsenje konkretnog kontejnera",
+      "starta novi kontejner",
+      "naziv image-a kojeg zelimo startati"
+    ],
+    "q": "U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (-p):",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "detached mode",
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)",
+      "definisanje naziva za izvrsenje konkretnog kontejnera",
+      "starta novi kontejner",
+      "naziv image-a kojeg zelimo startati"
+    ],
+    "originalQ": "U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (-p):",
+    "lesson": "Test 3",
+    "topic": "P8 — Docker",
+    "e": "-p 80:8080 objavljuje port 8080 kontejnera na portu 80 host računara. Redoslijed je HOST:KONTEJNER.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 43,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "Kolaborativni filter nije dobar zbog raznovrsnosti sadrzaja?",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "DA",
+      "NE"
+    ],
+    "originalQ": "Kolaborativni filter nije dobar zbog raznovrsnosti sadrzaja?",
+    "lesson": "Test 3",
+    "topic": "P9 — Sistemi preporuke",
+    "e": "NE prema ključu. Kolaborativno filtriranje koristi interakcije i sličnost korisnika ili artikala i nije ograničeno samo na analizu atributa sadržaja. Nedostatak podataka i cold start su konkretniji problemi.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 44,
+    "images": [],
+    "o": [
+      "Signature",
+      "Padding",
+      "Encryption data",
+      "size"
+    ],
+    "q": "Šta je posljednji dio potpisanog JWT-a u compact JWS obliku (header.payload.____)?",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "Signature",
+      "Padding",
+      "Encryption data",
+      "size"
+    ],
+    "originalQ": "Šta je zadnji dio encodiranog Base64 stringa",
+    "lesson": "Test 3",
+    "topic": "P5 — Sigurnost / JWT",
+    "e": "Kod potpisanog JWT-a u compact JWS obliku redoslijed je header.payload.signature. Sam proizvoljan Base64 string nema obavezno dio signature, pa je izvorno pitanje neprecizno.",
+    "source": "https://www.rfc-editor.org/rfc/rfc7515.html"
+  },
+  {
+    "c": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "id": 45,
+    "images": [],
+    "o": [
+      "Moze sadrzavati razlicite vrste fajlova",
+      "Ogranicen set dostupnih API-ova",
+      "Isporucuje se u binarnom formatu",
+      "Zbog nacina kompajliranja isporucuje se u izvornom obliku",
+      "Moze dovesti do kreiranja projekta koji je dosta tesko odrzavati i nadogradjivati",
+      "Podrzava postavljenu arhitekture aplikacije",
+      "Pogodan za unit testove",
+      "Nije pogodan za dijeljenje fajlova koji ne sadrze programski kod",
+      "Nije pogodan za dodavanje dijelova koda koji su specificni za pojedine platforme"
+    ],
+    "q": "Oznaci osobine PCL-a.",
+    "type": "multiple",
+    "originalC": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "originalO": [
+      "Moze sadrzavati razlicite vrste fajlova",
+      "Ogranicen set dostupnih API-ova",
+      "Isporucuje se u binarnom formatu",
+      "Zbog nacina kompajliranja isporucuje se u izvornom obliku",
+      "Moze dovesti do kreiranja projekta koji je dosta tesko odrzavati i nadogradjivati",
+      "Podrzava postavljenu arhitekture aplikacije",
+      "Pogodan za unit testove",
+      "Nije pogodan za dijeljenje fajlova koji ne sadrze programski kod",
+      "Nije pogodan za dodavanje dijelova koda koji su specificni za pojedine platforme"
+    ],
+    "originalQ": "Oznaci osobine PCL-a.",
+    "lesson": "Test 3",
+    "topic": "P6 — Shared i PCL",
+    "e": "P6, slajdovi 11–12: PCL koristi zajednički skup API-ja ciljanih platformi, distribuira se kao binarna biblioteka, pogodan je za unit testove i podržava arhitekturu. Nije namijenjen platformskom kodu ni dijeljenju proizvoljnih fajlova.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 46,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "DevOps se zasniva na LEAN?",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "DA",
+      "NE"
+    ],
+    "originalQ": "DevOps se zasniva na LEAN?",
+    "lesson": "Test 3",
+    "topic": "P7 — DevOps",
+    "e": "DA prema P7, slajd 7: Lean naglašava korisničku vrijednost, uklanjanje otpada i stalno poboljšavanje.",
+    "source": null
+  },
+  {
+    "c": [
+      1,
+      2,
+      5
+    ],
+    "id": 47,
+    "images": [],
+    "o": [
+      "IIS",
+      "Hub",
+      "Client",
+      "Switch",
+      "WebAPI",
+      "Host"
+    ],
+    "q": "Označi komponente kroz koje možemo posmatrati DOCKER:",
+    "type": "multiple",
+    "originalC": [
+      1,
+      2,
+      5
+    ],
+    "originalO": [
+      "IIS",
+      "Hub",
+      "Client",
+      "Switch",
+      "WebAPI",
+      "Host"
+    ],
+    "originalQ": "Označi komponente kroz koje možemo posmatrati DOCKER:",
+    "lesson": "Test 3",
+    "topic": "P8 — Docker",
+    "e": "P8, slajd 12: Client šalje komande, Host izvršava kontejnere i daemon, a Hub je repozitorij image-a.",
+    "source": null
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 48,
+    "images": [],
+    "o": [
+      "Greske uzrokovane klijentskim akcijam",
+      "Greske nastale na serverskoj strani",
+      "Uspjesna realizacija zahtjeva",
+      "Odredjena vrsta redirekcije",
+      "Poruke informativnog karaktera"
+    ],
+    "q": "HTTP statusni kodovi grupe 2xx:",
+    "type": "single",
+    "originalC": [
+      2
+    ],
+    "originalO": [
+      "Greske uzrokovane klijentskim akcijam",
+      "Greske nastale na serverskoj strani",
+      "Uspjesna realizacija zahtjeva",
+      "Odredjena vrsta redirekcije",
+      "Poruke informativnog karaktera"
+    ],
+    "originalQ": "HTTP statusni kodovi grupe 2xx:",
+    "lesson": "Test 3",
+    "topic": "P2 — HTTP",
+    "e": "2xx su uspješni odgovori: npr. 200 OK, 201 Created i 204 No Content.",
+    "source": null
+  },
+  {
+    "c": [
+      5
+    ],
+    "id": 49,
+    "images": [],
+    "o": [
+      "POST",
+      "HEAD",
+      "TRACE",
+      "GET",
+      "PATCH",
+      "PUT",
+      "DELETE",
+      "CONNECT",
+      "OPTIONS"
+    ],
+    "q": "Zamjena postojeceg resursa",
+    "type": "single",
+    "originalC": [
+      5
+    ],
+    "originalO": [
+      "POST",
+      "HEAD",
+      "TRACE",
+      "GET",
+      "PATCH",
+      "PUT",
+      "DELETE",
+      "CONNECT",
+      "OPTIONS"
+    ],
+    "originalQ": "Zamjena postojeceg resursa",
+    "lesson": "Test 3",
+    "topic": "P2 — HTTP",
+    "e": "PUT postavlja reprezentaciju resursa na poznati URI: često zamjenjuje postojeći resurs, a može i kreirati novi ako to API podržava.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 50,
+    "images": [],
+    "o": [
+      "Da",
+      "Ne"
+    ],
+    "q": "Prilikom POST zahtjeva, u polje Accept, mozemo specificirati koji format podataka očekujemo?",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "Da",
+      "Ne"
+    ],
+    "originalQ": "Prilikom POST zahtjeva, u polje Accept, mozemo specificirati koji format podataka očekujemo?",
+    "lesson": "Test 3",
+    "topic": "P2 — HTTP",
+    "e": "DA: Accept navodi prihvatljiv format ODGOVORA i može se poslati i uz POST. Content-Type opisuje format poslanog TIJELA zahtjeva. Izvorni ključ NE vjerovatno miješa ove dvije namjene.",
+    "source": "https://www.rfc-editor.org/rfc/rfc9110.html"
+  },
+  {
+    "c": [
+      0,
+      1
+    ],
+    "id": 51,
+    "images": [],
+    "o": [
+      "Dodavanjem odgovarajuceg atributa iznad tijela definicije",
+      "U WebApiConfig klasi",
+      "Nista od navedenog"
+    ],
+    "q": "Na koje nacine parametar mozemo proglasiti opcionalnim?",
+    "type": "multiple",
+    "originalC": [
+      0,
+      1
+    ],
+    "originalO": [
+      "Dodavanjem odgovarajuceg atributa iznad tijela definicije",
+      "U WebApiConfig klasi",
+      "Nista od navedenog"
+    ],
+    "originalQ": "Na koje nacine parametar mozemo proglasiti opcionalnim?",
+    "lesson": "Test 3",
+    "topic": "P3 — Rutiranje i formati",
+    "e": "U Web API 2 opcionalni parametar rute može se definisati u konfiguraciji kao RouteParameter.Optional ili atributnom rutom s oznakom ?, uz odgovarajuću zadanu vrijednost parametra akcije.",
+    "source": null
+  },
+  {
+    "c": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ],
+    "id": 52,
+    "images": [],
+    "o": [
+      "CreatedAtRoute",
+      "Created",
+      "InternalServerError",
+      "Redirect",
+      "NotFound",
+      "Inserted",
+      "Ok",
+      "StatusCode",
+      "Conflict",
+      "BadRequest"
+    ],
+    "q": "Oznaci helper metode:",
+    "type": "multiple",
+    "originalC": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ],
+    "originalO": [
+      "CreatedAtRoute",
+      "Created",
+      "InternalServerError",
+      "Redirect",
+      "NotFound",
+      "Inserted",
+      "OK",
+      "StatusCode",
+      "Conflict",
+      "BadRequest"
+    ],
+    "originalQ": "Oznaci helper metode:",
+    "lesson": "Test 3",
+    "topic": "P4 — Helper metode i izuzeci",
+    "e": "P4, slajd 3, navodi sve ponuđene metode osim Inserted. Stvarno ime metode za 200 je Ok(), a ne OK(); to je ispravljeno u provjerenom režimu.",
+    "source": null
+  },
+  {
+    "c": [
+      6
+    ],
+    "id": 53,
+    "images": [],
+    "o": [
+      "Created",
+      "Unauthorized",
+      "Not Found",
+      "OK",
+      "Continue",
+      "HTTP Version Not Supported",
+      "Internal Server Error"
+    ],
+    "q": "Statusni kod 500:",
+    "type": "single",
+    "originalC": [
+      6
+    ],
+    "originalO": [
+      "Created",
+      "Unautorized",
+      "Not Found",
+      "OK",
+      "Continue",
+      "HTTP Version Not Supported",
+      "Internal Server Error"
+    ],
+    "originalQ": "Statusni kod 500:",
+    "lesson": "Test 3",
+    "topic": "P2 — HTTP",
+    "e": "500 Internal Server Error: server je naišao na neočekivanu grešku koja je spriječila izvršenje zahtjeva.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 54,
+    "images": [],
+    "o": [
+      "Omogućava preporuku proizvoda koje su drugi kupci, sa sličnim preferencijama, već ocijenili. Ukoliko su kupci slični, onda će vjerovatno imati slične zahtjeve i potrebe.",
+      "Omogućava preporuku proizvoda na osnovu učestalosti zajedničke kupovine.",
+      "Omogućava preporuku proizvoda sličnih onima koje je kupac prethodno pregledao, ocijenio, komentarisao, kupovao."
+    ],
+    "q": "Collaborative filtering (CF)",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "Omogućava preporuku proizvoda koje su drugi kupci, sa sličnim preferencijama, već ocijenili. Ukoliko su kupci slični, onda će vjerovatno imati slične zahtjeve i potrebe.",
+      "Omogućava preporuku proizvoda na osnovu učestalosti zajedničke kupovine.",
+      "Omogućava preporuku proizvoda sličnih onima koje je kupac prethodno pregledao, ocijenio, komentarisao, kupovao."
+    ],
+    "originalQ": "Collaborative filtering (CF)",
+    "lesson": "Test 3",
+    "topic": "P9 — Sistemi preporuke",
+    "e": "CF preporučuje artikle na osnovu ocjena i ponašanja sličnih korisnika ili sličnih obrazaca interakcije.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 55,
+    "images": [],
+    "o": [
+      "Binary JavaScript Object Notation",
+      "Bound JavaScript Oriented Network",
+      "Bilingual JavaSocket Object Network"
+    ],
+    "q": "Znacenje BSON:",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "Binary JavaScript Object Notation",
+      "Bound JavaScript Oriented Network",
+      "Bilingual JavaSocket Object Network"
+    ],
+    "originalQ": "Znacenje BSON:",
+    "lesson": "Test 3",
+    "topic": "P1 — Uvod / web servisi",
+    "e": "BSON znači Binary JSON, odnosno Binary JavaScript Object Notation u terminologiji testa. To je binarni format dokumenata s dodatnim podržanim tipovima.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 56,
+    "images": [],
+    "o": [
+      "definisanje naziva za izvrsenje konkretnog kontejnera",
+      "starta novi kontejner",
+      "detached mode",
+      "naziv image-a kojeg zelimo startati",
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)"
+    ],
+    "q": "U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (--name FIT):",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "definisanje naziva za izvrsenje konkretnog kontejnera",
+      "starta novi kontejner",
+      "detached mode",
+      "naziv image-a kojeg zelimo startati",
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)"
+    ],
+    "originalQ": "U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (--name FIT):",
+    "lesson": "Test 3",
+    "topic": "P8 — Docker",
+    "e": "--name FIT dodjeljuje kontejneru ime FIT. Naziv image-a u istoj komandi je wordpress.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 57,
+    "images": [],
+    "o": [
+      "DA. Iskljucivo komunicira sa ASP.NET.",
+      "NE. Moze pruzati i drugim aplikacijama."
+    ],
+    "q": "Da li WebAPI moze pruzati usluge samo ASP.NET aplikacijama?",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "DA. Iskljucivo komunicira sa ASP.NET.",
+      "NE. Moze pruzati i drugim aplikacijama."
+    ],
+    "originalQ": "Da li WebAPI moze pruzati usluge samo ASP.NET aplikacijama?",
+    "lesson": "Test 3",
+    "topic": "P1 — Uvod / web servisi",
+    "e": "NE. Klijent može biti web, desktop, Android, iOS, Linux ili druga aplikacija koja može slati HTTP zahtjeve i obraditi odgovor.",
+    "source": null
+  },
+  {
+    "c": [
+      8
+    ],
+    "id": 58,
+    "images": [],
+    "o": [
+      "DELETE",
+      "TRACE",
+      "PUT",
+      "CONNECT",
+      "OPTIONS",
+      "GET",
+      "POST",
+      "HEAD",
+      "PATCH"
+    ],
+    "q": "Promjena vrijednosti odredjenih atributa resursa",
+    "type": "single",
+    "originalC": [
+      8
+    ],
+    "originalO": [
+      "DELETE",
+      "TRACE",
+      "PUT",
+      "CONNECT",
+      "OPTIONS",
+      "GET",
+      "POST",
+      "HEAD",
+      "PATCH"
+    ],
+    "originalQ": "Promjena vrijednosti odredjenih atributa resursa",
+    "lesson": "Test 3",
+    "topic": "P2 — HTTP",
+    "e": "PATCH predstavlja djelimičnu izmjenu resursa. PUT se tipično koristi za zamjenu cijele reprezentacije.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 59,
+    "images": [],
+    "o": [
+      "204",
+      "403",
+      "505",
+      "404",
+      "500",
+      "301"
+    ],
+    "q": "Koji će status code dobiti user koji se autorizovao ali nema permisija da pristupi resursu?",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "204",
+      "403",
+      "505",
+      "404",
+      "500",
+      "301"
+    ],
+    "originalQ": "Koji će status code dobiti user koji se autorizovao ali nema permisija da pristupi resursu?",
+    "lesson": "Test 3",
+    "topic": "P2 — HTTP",
+    "e": "403 Forbidden: identitet može biti poznat, ali korisnik nema dozvolu za konkretan resurs.",
+    "source": null
+  },
+  {
+    "c": [
+      0,
+      2,
+      4,
+      5
+    ],
+    "id": 60,
+    "images": [],
+    "o": [
+      "Zasnovan na ASP.NET",
+      "Ne može pružati servise LINUX platfomama",
+      "Framework za razvoj HTTP servisa kojima pristupaju različiti klijenti",
+      "Nije pogodan za iOS bazirane uređaje",
+      "Pružanje servisnog sloja za klijent-server desktop, mobilne i druge vrste aplikacija.",
+      "Posrednik u komunikaciji između dvije komponente/softwarea"
+    ],
+    "q": "Šta karakteriše WebAPI:",
+    "type": "multiple",
+    "originalC": [
+      0,
+      2,
+      4,
+      5
+    ],
+    "originalO": [
+      "Zasnovan na ASP.NET",
+      "Ne može pružati servise LINUX platfomama",
+      "Framework za razvoj HTTP servisa kojima pristupaju različiti klijenti",
+      "Nije pogodan za iOS bazirane uređaje",
+      "Pružanje servisnog sloja za klijent-server desktop, mobilne i druge vrste aplikacija.",
+      "Posrednik u komunikaciji između dvije komponente/softwarea"
+    ],
+    "originalQ": "Šta karakteriše WebAPI:",
+    "lesson": "Test 3",
+    "topic": "P1 — Uvod / web servisi",
+    "e": "U nastavnom kontekstu ASP.NET Web API je okvir za razvoj HTTP servisa kojima pristupaju različiti klijenti. Nije ograničen na Windows, ASP.NET klijente ili određenu vrstu uređaja.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 61,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "DevOps se zasniva na agilnim metodama, tj. na SCRUM-u?",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "DA",
+      "NE"
+    ],
+    "originalQ": "DevOps se zasniva na agilnim metodama, tj. na SCRUM-u?",
+    "lesson": "Test 4",
+    "topic": "P7 — DevOps",
+    "e": "Izvorni test očekuje NE jer P7 kao osnovu izdvaja Lean. To ne znači da su DevOps i Scrum nespojivi: Scrum timovi mogu koristiti DevOps prakse.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 62,
+    "images": [],
+    "o": [
+      "Sistem nema dovoljno informacija sa kojim bi mogao raditi, tj. ne postoji dovoljan broj ocjena proizvoda da bi se dala tacna preporuka.",
+      "Sistem sadrzi dovoljno informacija sa kojim bi mogao raditi, tj. postoji dovoljan broj ocjena proizvoda da bi se dala tacna preporuka."
+    ],
+    "q": "Koji je uzrok cold start-a?",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "Sistem nema dovoljno informacija sa kojim bi mogao raditi, tj. ne postoji dovoljan broj ocjena proizvoda da bi se dala tacna preporuka.",
+      "Sistem sadrzi dovoljno informacija sa kojim bi mogao raditi, tj. postoji dovoljan broj ocjena proizvoda da bi se dala tacna preporuka."
+    ],
+    "originalQ": "Koji je uzrok cold start-a?",
+    "lesson": "Test 4",
+    "topic": "P9 — Sistemi preporuke",
+    "e": "Cold start nastaje kad za novog korisnika, novi artikal ili novi sistem nema dovoljno ocjena i interakcija za pouzdanu personalizaciju.",
+    "source": null
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 63,
+    "images": [],
+    "o": [
+      "starta novi kontejner",
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)",
+      "detached mode",
+      "naziv image-a kojeg zelimo startati",
+      "definisanje naziva za izvrsenje konkretnog kontejnera"
+    ],
+    "q": "U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (wordpress):",
+    "type": "single",
+    "originalC": [
+      3
+    ],
+    "originalO": [
+      "starta novi kontejner",
+      "omogucava mapiranje portova izmedju trenutne masine(80) i kontejnera(8080)",
+      "detached mode",
+      "naziv image-a kojeg zelimo startati",
+      "definisanje naziva za izvrsenje konkretnog kontejnera"
+    ],
+    "originalQ": "U komandi „docker run -d --name FIT -p 80:8080 wordpress“ (wordpress):",
+    "lesson": "Test 4",
+    "topic": "P8 — Docker",
+    "e": "wordpress je naziv image-a iz kojeg docker run kreira kontejner. --name FIT je naziv samog kontejnera.",
+    "source": null
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 64,
+    "images": [],
+    "o": [
+      "Greske uzrokovane klijentskim akcijam",
+      "Poruke informativnog karaktera",
+      "Odredjena vrsta redirekcije",
+      "Greske nastale na serverskoj strani",
+      "Uspjesna realizacija zahtjeva"
+    ],
+    "q": "HTTP statusni kodovi grupe 5xx:",
+    "type": "single",
+    "originalC": [
+      3
+    ],
+    "originalO": [
+      "Greske uzrokovane klijentskim akcijam",
+      "Poruke informativnog karaktera",
+      "Odredjena vrsta redirekcije",
+      "Greske nastale na serverskoj strani",
+      "Uspjesna realizacija zahtjeva"
+    ],
+    "originalQ": "HTTP statusni kodovi grupe 5xx:",
+    "lesson": "Test 4",
+    "topic": "P2 — HTTP",
+    "e": "5xx označava serverske greške: npr. 500 interna greška i 503 privremena nedostupnost.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 65,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "Da li je WebAPI baziran na ASP.NET?",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "DA",
+      "NE"
+    ],
+    "originalQ": "Da li je WebAPI baziran na ASP.NET?",
+    "lesson": "Test 4",
+    "topic": "P1 — Uvod / web servisi",
+    "e": "DA u kontekstu predmeta: riječ je o ASP.NET Web API framework-u, a ne o svakom web API-ju općenito.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 66,
+    "images": [],
+    "o": [
+      "status code",
+      "IIS Expres usmjerava na pogresnu adresu",
+      "HttpResponseMessage",
+      "IIS Nije pokrenut"
+    ],
+    "q": "Šta predstavlja Internal Server Error?",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "status code",
+      "IIS Expres usmjerava na pogresnu adresu",
+      "HttpResponseMessage",
+      "IIS Nije pokrenut"
+    ],
+    "originalQ": "Šta predstavlja Internal Server Error?",
+    "lesson": "Test 4",
+    "topic": "P2 — HTTP",
+    "e": "Internal Server Error je naziv HTTP statusa 500. Sam po sebi ne otkriva tačan programski uzrok greške.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 67,
+    "images": [],
+    "o": [
+      "CustomFilterAttribut",
+      "ExceptionFilterAttribute",
+      "OptionFilterAttribut",
+      "Base Class"
+    ],
+    "q": "Kod kreiranja vlastitog filtera za izuzetke u ASP.NET Web API 2, koju klasu nasljeđujemo?",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "CustomFilterAttribut",
+      "ExceptionFilterAttribut",
+      "OptionFilterAttribut",
+      "Base Class"
+    ],
+    "originalQ": "Kad se kreira vlastiti filter, koju klasu moramo naslijediti?",
+    "lesson": "Test 4",
+    "topic": "P4 — Helper metode i izuzeci",
+    "e": "Za vlastiti filter IZUZETAKA u Web API 2 nasljeđuje se ExceptionFilterAttribute i override-a OnException. Postoje i druge vrste filtera koje koriste druge bazne klase.",
+    "source": null
+  },
+  {
+    "c": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "id": 68,
+    "images": [],
+    "o": [
+      "Moguce je dodati dijelove koda koji su specificni za pojedine platforme",
+      "Zbog nacina kompajliranja isporucuje se u izvornom obliku",
+      "Moze dovesti do kreiranja projekta koji je dosta tesko odrzavati i nadogradjivati",
+      "Moze sadrzavati razlicite vrste fajlova",
+      "Otezano izvrsenje unit testova",
+      "Isporucuje se u binarnom formatu",
+      "Dostupni su svi API-ovi",
+      "Ogranicen set dostupnih API-ova",
+      "Podrzava postavljenu arhitekture aplikacije"
+    ],
+    "q": "Oznaci osobine Shared-a.",
+    "type": "multiple",
+    "originalC": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "originalO": [
+      "Moguce je dodati dijelove koda koji su specificni za pojedine platforme",
+      "Zbog nacina kompajliranja isporucuje se u izvornom obliku",
+      "Moze dovesti do kreiranja projekta koji je dosta tesko odrzavati i nadogradjivati",
+      "Moze sadrzavati razlicite vrste fajlova",
+      "Otezano izvrsenje unit testova",
+      "Isporucuje se u binarnom formatu",
+      "Dostupni su svi API-ovi",
+      "Ogranicen set dostupnih API-ova",
+      "Podrzava postavljenu arhitekture aplikacije"
+    ],
+    "originalQ": "Oznaci osobine Shared-a.",
+    "lesson": "Test 4",
+    "topic": "P6 — Shared i PCL",
+    "e": "P6, slajdovi 10 i 12: Shared dijeli izvorne fajlove i podržava platformski kod kroz uslovno kompajliranje. Posljedice su složenije održavanje i testiranje; ne isporučuje se kao zasebna binarna PCL biblioteka.",
+    "source": null
+  },
+  {
+    "c": [
+      0,
+      2
+    ],
+    "id": 69,
+    "images": [],
+    "o": [
+      "Predstavlja XML bazirani protokol za razmjenu poruka, odnosno protokol za komunikaciju sa Web servisom",
+      "Predstavlja protokol za komunikaciju na fizičkom sloju podataka",
+      "Definiše set pravila o strukturi sadržaja poruke",
+      "Ništa od navedenog",
+      "Predstavlja protokol za razmjenu HTML sadržaja"
+    ],
+    "q": "SOAP (Simple Object Access Protocol)",
+    "type": "multiple",
+    "originalC": [
+      0,
+      2
+    ],
+    "originalO": [
+      "Predstavlja XML bazirani protokol za razmjenu poruka, odnosno protokol za komunikaciju sa Web servisom",
+      "Predstavlja protokol za komunikaciju na fizičkom sloju podataka",
+      "Definiše set pravila o strukturi sadržaja poruke",
+      "Ništa od navedenog",
+      "Predstavlja protokol za razmjenu HTML sadržaja"
+    ],
+    "originalQ": "SOAP (Simple Object Access Protocol)",
+    "lesson": "Test 4",
+    "topic": "P1 — Uvod / web servisi",
+    "e": "SOAP je XML protokol razmjene strukturiranih poruka i definiše njihovu strukturu. Ne radi na fizičkom sloju i nije protokol isključivo za HTML.",
+    "source": null
+  },
+  {
+    "c": [
+      2,
+      3,
+      4
+    ],
+    "id": 70,
+    "images": [],
+    "o": [
+      "Kriptovan sadrzaj, potrebno je implementirati neki algoritam za dekripciju",
+      "Nema postavljenih ogranicenja u duzini stringa",
+      "Citljiv sadrzaj, ukoliko se ne implementira neki dodatni sigurnosni mehanizam",
+      "Predefinisano znacenje pojedinih znakova",
+      "Ogranicenje u duzini stringa"
+    ],
+    "q": "Osobine query string-a?",
+    "type": "multiple",
+    "originalC": [
+      2,
+      3,
+      4
+    ],
+    "originalO": [
+      "Kriptovan sadrzaj, potrebno je implementirati neki algoritam za dekripciju",
+      "Nema postavljenih ogranicenja u duzini stringa",
+      "Citljiv sadrzaj, ukoliko se ne implementira neki dodatni sigurnosni mehanizam",
+      "Predefinisano znacenje pojedinih znakova",
+      "Ogranicenje u duzini stringa"
+    ],
+    "originalQ": "Osobine query string-a?",
+    "lesson": "Test 4",
+    "topic": "P2 — HTTP",
+    "e": "Query string je dio URL-a sa znakovima posebnog značenja (?, &, =), a dozvoljene dužine zavise od klijenata i servera. URL encoding nije enkripcija. HTTPS šifrira prijenos, ali URL i dalje može završiti u historiji i serverskim logovima.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 71,
+    "images": [],
+    "o": [
+      "HttpClient",
+      "Octopus",
+      "Docker"
+    ],
+    "q": "Za komunikaciju izmedju WebAPI i desktop ili mobilne aplikacije, koju klasu koristimo?",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "HttpClient",
+      "Octopus",
+      "Docker"
+    ],
+    "originalQ": "Za komunikaciju izmedju WebAPI i desktop ili mobilne aplikacije, koju klasu koristimo?",
+    "lesson": "Test 4",
+    "topic": "P4 — Helper metode i izuzeci",
+    "e": "HttpClient šalje HTTP zahtjeve i prima odgovore. HttpResponseMessage predstavlja jedan primljeni odgovor.",
+    "source": null
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 72,
+    "images": [],
+    "o": [
+      "Forbidden",
+      "Bad Request",
+      "Not Found",
+      "Moved Permanently",
+      "Continue",
+      "Unauthorized",
+      "OK"
+    ],
+    "q": "Statusni kod 301:",
+    "type": "single",
+    "originalC": [
+      3
+    ],
+    "originalO": [
+      "Forbidden",
+      "Bad Request",
+      "Not Found",
+      "Moved Permanently",
+      "Continue",
+      "Unautorized",
+      "OK"
+    ],
+    "originalQ": "Statusni kod 301:",
+    "lesson": "Test 4",
+    "topic": "P2 — HTTP",
+    "e": "301 Moved Permanently: resurs ima trajnu novu adresu, tipično navedenu u Location zaglavlju.",
+    "source": null
+  },
+  {
+    "c": [
+      4
+    ],
+    "id": 73,
+    "images": [],
+    "o": [
+      "<table>",
+      "#header",
+      "<label></label>",
+      "<head>",
+      "Nista od navedenog"
+    ],
+    "q": "Oznaciti xml predefinisane tagove:",
+    "type": "multiple",
+    "originalC": [
+      4
+    ],
+    "originalO": [
+      "<table>",
+      "#header",
+      "<label></label>",
+      "<head>",
+      "Nista od navedenog"
+    ],
+    "originalQ": "Oznaciti xml predefinisane tagove:",
+    "lesson": "Test 4",
+    "topic": "P1 — Uvod / web servisi",
+    "e": "XML nema univerzalno predefinisan skup naziva elemenata: aplikacija ili schema definiše svoje tagove. <table> i <head> su poznati iz HTML-a, ali nisu obavezni XML tagovi.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 74,
+    "images": [],
+    "o": [
+      "Da",
+      "Ne"
+    ],
+    "q": "HttpResponseMessage se sastoji samo iz status code i poruke?",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "Da",
+      "Ne"
+    ],
+    "originalQ": "HttpResponseMessage se sastoji samo iz status code i poruke?",
+    "lesson": "Test 4",
+    "topic": "P4 — Helper metode i izuzeci",
+    "e": "NE. HttpResponseMessage pored StatusCode i ReasonPhrase ima Content, Headers, Version, RequestMessage i druge informacije.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 75,
+    "images": [],
+    "o": [
+      "POST",
+      "PATCH",
+      "TRACE",
+      "GET",
+      "HEAD",
+      "PUT",
+      "DELETE",
+      "CONNECT",
+      "OPTIONS"
+    ],
+    "q": "Dodavanje novog resursa",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "POST",
+      "PATCH",
+      "TRACE",
+      "GET",
+      "HEAD",
+      "PUT",
+      "DELETE",
+      "CONNECT",
+      "OPTIONS"
+    ],
+    "originalQ": "Dodavanje novog resursa",
+    "lesson": "Test 4",
+    "topic": "P2 — HTTP",
+    "e": "POST često služi kreiranju novog resursa u kolekciji. Uspješno kreiranje može vratiti 201 Created i Location novog resursa.",
+    "source": null
+  },
+  {
+    "c": [
+      1,
+      2
+    ],
+    "id": 76,
+    "images": [],
+    "o": [
+      "Octopus",
+      "Kibana",
+      "Logstash",
+      "Docker"
+    ],
+    "q": "Koje alate koristimo za prikupljanje, analizu i vizualizaciju obrade log fajlova?",
+    "type": "multiple",
+    "originalC": [
+      1,
+      2
+    ],
+    "originalO": [
+      "Octopus",
+      "Kibana",
+      "Logstash",
+      "Docker"
+    ],
+    "originalQ": "Koje alate koristimo za prikupljanje, analizu i vizualizaciju obrade log fajlova?",
+    "lesson": "Test 4",
+    "topic": "P7 — DevOps",
+    "e": "P7, slajd 16: Logstash prikuplja i obrađuje logove, Kibana omogućava pretragu i vizualizaciju.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 77,
+    "images": [],
+    "o": [
+      "NE. Mozemo ukljuciti samo one biblioteke koje se nalaze u svim projektima.",
+      "NE. U PCL se ne moze ukljuciti nijedna biblioteka.",
+      "DA. Mozemo ukljuciti bilo koju biblioteku koje se nalazi na lokalnom disku."
+    ],
+    "q": "Da li u PCL mozemo ukljuciti bilo koju biblioteku?",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "NE. Mozemo ukljuciti samo one biblioteke koje se nalaze u svim projektima.",
+      "NE. U PCL se ne moze ukljuciti nijedna biblioteka.",
+      "DA. Mozemo ukljuciti bilo koju biblioteku koje se nalazi na lokalnom disku."
+    ],
+    "originalQ": "Da li u PCL mozemo ukljuciti bilo koju biblioteku?",
+    "lesson": "Test 4",
+    "topic": "P6 — Shared i PCL",
+    "e": "PCL biblioteke moraju biti kompatibilne sa svim odabranim ciljnim platformama/profilom. „Nalaze se u svim projektima“ je pojednostavljena formulacija iz testa; nije dovoljno da je DLL fizički na disku.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 78,
+    "images": [],
+    "o": [
+      "GET",
+      "DELETE",
+      "HEAD",
+      "POST",
+      "PATCH",
+      "OPTIONS",
+      "PUT",
+      "CONNECT",
+      "TRACE"
+    ],
+    "q": "Citanje sadrzaja resursa",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "GET",
+      "DELETE",
+      "HEAD",
+      "POST",
+      "PATCH",
+      "OPTIONS",
+      "PUT",
+      "CONNECT",
+      "TRACE"
+    ],
+    "originalQ": "Citanje sadrzaja resursa",
+    "lesson": "Test 4",
+    "topic": "P2 — HTTP",
+    "e": "GET traži reprezentaciju resursa. HEAD traži odgovarajuća zaglavlja bez tijela odgovora.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 79,
+    "images": [],
+    "o": [
+      "Greske nastale na serverskoj strani",
+      "Odredjena vrsta redirekcije",
+      "Poruke informativnog karaktera",
+      "Greske uzrokovane klijentskim akcijam",
+      "Uspjesna realizacija zahtjeva"
+    ],
+    "q": "HTTP statusni kodovi grupe 3xx:",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "Greske nastale na serverskoj strani",
+      "Odredjena vrsta redirekcije",
+      "Poruke informativnog karaktera",
+      "Greske uzrokovane klijentskim akcijam",
+      "Uspjesna realizacija zahtjeva"
+    ],
+    "originalQ": "HTTP statusni kodovi grupe 3xx:",
+    "lesson": "Test 4",
+    "topic": "P2 — HTTP",
+    "e": "3xx su odgovori preusmjeravanja ili vezani za korištenje druge reprezentacije, npr. 301 i 304.",
+    "source": null
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 80,
+    "images": [],
+    "o": [
+      "Forbidden",
+      "OK",
+      "Created",
+      "Service Unavailable",
+      "Not Found",
+      "HTTP Version Not Supported",
+      "Continue"
+    ],
+    "q": "Statusni kod 201:",
+    "type": "single",
+    "originalC": [
+      2
+    ],
+    "originalO": [
+      "Forbidden",
+      "OK",
+      "Created",
+      "Service Unavailable",
+      "Not Found",
+      "HTTP Version Not Supported",
+      "Continue"
+    ],
+    "originalQ": "Statusni kod 201:",
+    "lesson": "Test 4",
+    "topic": "P2 — HTTP",
+    "e": "201 Created: zahtjev je uspješno izvršen i kreiran je jedan ili više novih resursa.",
+    "source": null
+  },
+  {
+    "c": [
+      0,
+      2
+    ],
+    "id": 81,
+    "images": [],
+    "o": [
+      "Content-Type",
+      "BadRequest",
+      "Accept",
+      "CreatedAtRoute",
+      "StatusCode"
+    ],
+    "q": "Formati za komunikaciju (Content Negotiation) u hederu get/post su:",
+    "type": "multiple",
+    "originalC": [
+      0,
+      2
+    ],
+    "originalO": [
+      "Content-Type",
+      "BadRequest",
+      "Accept",
+      "CreatedAtRoute",
+      "StatusCode"
+    ],
+    "originalQ": "Formati za komunikaciju (Content Negotiation) u hederu get/post su:",
+    "lesson": "Test 5",
+    "topic": "P2 — HTTP",
+    "e": "To su nazivi zaglavlja, ne sami formati: Accept navodi prihvatljive tipove odgovora, Content-Type opisuje tip poslanog sadržaja, npr. application/json.",
+    "source": null
+  },
+  {
+    "c": [
+      3
+    ],
+    "id": 82,
+    "images": [],
+    "o": [
+      "Chrome i Firefox koriste JSON / Edge koristi XML",
+      "Svi browseri koriste JSON format kao default",
+      "Chrome i Firefox koriste XML / Edge koristi JSON",
+      "Zavisi od Accept zaglavlja i konfiguracije servera; ne postoji univerzalan format za svaki browser."
+    ],
+    "q": "Ukoliko instaliramo bilo koji browser sa defaultnim postavkama koji format podataka se koristi?",
+    "type": "single",
+    "originalC": [
+      2
+    ],
+    "originalO": [
+      "Chrome i Firefox koriste JSON / Edge koristi XML",
+      "Svi browseri koriste JSON format kao default",
+      "Chrome i Firefox koriste XML / Edge koristi JSON"
+    ],
+    "originalQ": "Ukoliko instaliramo bilo koji browser sa defaultnim postavkama koji format podataka se koristi?",
+    "lesson": "Test 5",
+    "topic": "P2 — HTTP",
+    "e": "Izvorni ključ je historijska tvrdnja o tadašnjim browserima i Web API formatterima. Ne postoji univerzalno pravilo da browser „koristi XML ili JSON“: rezultat zavisi od Accept zaglavlja, dostupnih server formattera i konfiguracije.",
+    "source": "https://learn.microsoft.com/en-us/aspnet/web-api/overview/formats-and-model-binding/content-negotiation"
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 83,
+    "images": [],
+    "o": [
+      "Odredjena vrsta redirekcije",
+      "Poruke informativnog karaktera",
+      "Uspjesna realizacija zahtjeva",
+      "Greske nastale na serverskoj strani",
+      "Greske uzrokovane klijentskim akcijam"
+    ],
+    "q": "HTTP statusni kodovi grupe 1xx:",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "Odredjena vrsta redirekcije",
+      "Poruke informativnog karaktera",
+      "Uspjesna realizacija zahtjeva",
+      "Greske nastale na serverskoj strani",
+      "Greske uzrokovane klijentskim akcijam"
+    ],
+    "originalQ": "HTTP statusni kodovi grupe 1xx:",
+    "lesson": "Test 5",
+    "topic": "P2 — HTTP",
+    "e": "1xx su informativni, privremeni odgovori. Primjer je 100 Continue.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 84,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "ActionName, koristi se za davanje drugih (alternativnih) imena akcijama.",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "DA",
+      "NE"
+    ],
+    "originalQ": "ActionName, koristi se za davanje drugih (alternativnih) imena akcijama.",
+    "lesson": "Test 5",
+    "topic": "P3 — Rutiranje i formati",
+    "e": "ActionName u Web API 2 omogućava alternativno ime akcije. Da bi ime učestvovalo u URL-u, ruta mora podržavati segment akcije ili odgovarajuće atributno rutiranje.",
+    "source": null
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 85,
+    "images": [],
+    "o": [
+      "api/proizvodi/searchproizvod/vrstaID?=id",
+      "api/proizvodi/searchproizvod/{vrstaID?/vrstaID=>x.proizvodID}",
+      "api/proizvodi/searchproizvod/{vrstaID?}"
+    ],
+    "q": "Koji je ispravan predložak rute za akciju searchproizvod u kontroleru Proizvodi s opcionalnim segmentom vrstaID?",
+    "type": "single",
+    "originalC": [
+      2
+    ],
+    "originalO": [
+      "api/proizvodi/searchproizvod/vrstaID?=id",
+      "api/proizvodi/searchproizvod/{vrstaID?/vrstaID=>x.proizvodID}",
+      "api/proizvodi/searchproizvod/{vrstaID?}"
+    ],
+    "originalQ": "Odaberi tacan nacin za pozivanje „searchproizvod“ akcije u kontroleru Proizvodi.",
+    "lesson": "Test 5",
+    "topic": "P3 — Rutiranje i formati",
+    "e": "Treća opcija je predložak rute s opcionalnim segmentom vrstaID. Vitičaste zagrade i ? su sintaksa predloška, ne konkretan poziv. Stvarni URL bi npr. bio api/proizvodi/searchproizvod/123, ako je ta ruta registrovana.",
+    "source": "https://learn.microsoft.com/en-us/aspnet/web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 86,
+    "images": [],
+    "o": [
+      "Detaljno obavjesti o stanju greške",
+      "Preduhitri je exception metod ako je urađen",
+      "500 - Internal server error"
+    ],
+    "q": "Šta ce nam vratiti WebAPI ako se desi greška koju servisni sloj ne prepoznaje?",
+    "type": "single",
+    "originalC": [
+      2
+    ],
+    "originalO": [
+      "Detaljno obavjesti o stanju greške",
+      "Preduhitri je exception metod ako je urađen",
+      "500 - Internal server error"
+    ],
+    "originalQ": "Šta ce nam vratiti WebAPI ako se desi greška koju servisni sloj ne prepoznaje?",
+    "lesson": "Test 5",
+    "topic": "P4 — Helper metode i izuzeci",
+    "e": "Neobrađen izuzetak se tipično pretvara u 500 Internal Server Error. Filter ili drugi handler može namjerno vratiti drugi odgovarajući status.",
+    "source": null
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 87,
+    "images": [],
+    "o": [
+      "50%",
+      "30%",
+      "60%",
+      "Nije je moguce izracunati jer vrijednosti nisu diskretne."
+    ],
+    "q": "Izracunati Hamming-ovu udaljenost na osnovu vrijednosti:5,3,4,4,4 - 5,2,4,3,1",
+    "type": "single",
+    "originalC": [
+      2
+    ],
+    "originalO": [
+      "50%",
+      "30%",
+      "60%",
+      "Nije je moguce izracunati jer vrijednosti nisu diskretne."
+    ],
+    "originalQ": "Izracunati Hamming-ovu udaljenost na osnovu vrijednosti:5,3,4,4,4 - 5,2,4,3,1",
+    "lesson": "Test 5",
+    "topic": "P9 — Sistemi preporuke",
+    "e": "Uporedi pozicije: 5=5, 3≠2, 4=4, 4≠3, 4≠1. Različite su 3 od 5 pozicija: Hammingova udaljenost 3, normalizovano 3/5 = 60%.",
+    "source": null
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 88,
+    "images": [],
+    "o": [
+      "CONNECT",
+      "PATCH",
+      "HEAD",
+      "OPTIONS",
+      "TRACE"
+    ],
+    "q": "Koju metodu koristimo kad zelimo znati da li posjedujemo posljednju veziju podataka dostupnih na serveru.",
+    "type": "single",
+    "originalC": [
+      2
+    ],
+    "originalO": [
+      "CONNECT",
+      "PATCH",
+      "HEAD",
+      "OPTIONS",
+      "TRACE"
+    ],
+    "originalQ": "Koju metodu koristimo kad zelimo znati da li posjedujemo posljednju veziju podataka dostupnih na serveru.",
+    "lesson": "Test 5",
+    "topic": "P2 — HTTP",
+    "e": "HEAD može dobaviti metapodatke poput ETag ili Last-Modified bez tijela, pa se mogu porediti s lokalnom kopijom. Validacija cache-a se često radi i uslovnim GET zahtjevom koji može vratiti 304.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 89,
+    "images": [],
+    "o": [
+      "Da",
+      "Ne"
+    ],
+    "q": "Sistemi preporuke imaju za cilj osigurati personalizaciju i kupcima ponuditi ono što odgovara njihovim potrebama.",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "Da",
+      "Ne"
+    ],
+    "originalQ": "Sistemi preporuke imaju za cilj osigurati personalizaciju i kupcima ponuditi ono što odgovara njihovim potrebama.",
+    "lesson": "Test 5",
+    "topic": "P9 — Sistemi preporuke",
+    "e": "Cilj sistema preporuke je personalizacija: izdvojiti proizvode ili sadržaje koji odgovaraju interesima korisnika.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 90,
+    "images": [],
+    "o": [
+      "Omogućava preporuku proizvoda koje su drugi kupci, sa sličnim preferencijama, već ocijenili. Ukoliko su kupci slični, onda će vjerovatno imati slične zahtjeve i potrebe.",
+      "Omogućava preporuku proizvoda sličnih onima koje je kupac prethodno pregledao, ocijenio, komentarisao, kupovao.",
+      "Omogućava preporuku proizvoda na osnovu učestalosti zajedničke kupovine."
+    ],
+    "q": "Content-based filtering (CBF)",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "Omogućava preporuku proizvoda koje su drugi kupci, sa sličnim preferencijama, već ocijenili. Ukoliko su kupci slični, onda će vjerovatno imati slične zahtjeve i potrebe.",
+      "Omogućava preporuku proizvoda sličnih onima koje je kupac prethodno pregledao, ocijenio, komentarisao, kupovao.",
+      "Omogućava preporuku proizvoda na osnovu učestalosti zajedničke kupovine."
+    ],
+    "originalQ": "Content-based filtering (CBF)",
+    "lesson": "Test 5",
+    "topic": "P9 — Sistemi preporuke",
+    "e": "CBF poredi karakteristike sadržaja s profilom korisnika: preporučuje proizvode slične onima koji su mu se ranije dopali.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 91,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "Image predstavlja sliku koja prikazuje sistem kontejnera, a obicno je jednoslojna i ne moze se modifikovati.",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "DA",
+      "NE"
+    ],
+    "originalQ": "Image predstavlja sliku koja prikazuje sistem kontejnera, a obicno je jednoslojna i ne moze se modifikovati.",
+    "lesson": "Test 5",
+    "topic": "P8 — Docker",
+    "e": "NE. Docker image je višeslojna osnova fajl sistema i metapodataka, a ne obična vizuelna slika. Promjene daju nove slojeve/image, dok kontejner ima zapisivi sloj.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 92,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "Container se ne moze posmatrati kao set procesa koji se izvrsavaju u okviru pomenutog fajl sistema. Drugim rijecima, container se ne moze posmatrati kao pokrenuti/startani image.",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "DA",
+      "NE"
+    ],
+    "originalQ": "Container se ne moze posmatrati kao set procesa koji se izvrsavaju u okviru pomenutog fajl sistema. Drugim rijecima, container se ne moze posmatrati kao pokrenuti/startani image.",
+    "lesson": "Test 5",
+    "topic": "P8 — Docker",
+    "e": "Tvrdnja je negacija tačne definicije, zato je odgovor NE: kontejner jeste izvršavajuća instanca image-a s procesima.",
+    "source": null
+  },
+  {
+    "c": [
+      0
+    ],
+    "id": 93,
+    "images": [],
+    "o": [
+      "No Content",
+      "Moved Permanently",
+      "Continue",
+      "Bad Request",
+      "OK",
+      "Created",
+      "Forbidden"
+    ],
+    "q": "Statusni kod 204:",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "No Content",
+      "Moved Permanently",
+      "Continue",
+      "Bad Request",
+      "OK",
+      "Created",
+      "Forbidden"
+    ],
+    "originalQ": "Statusni kod 204:",
+    "lesson": "Test 5",
+    "topic": "P2 — HTTP",
+    "e": "204 No Content označava uspjeh bez tijela odgovora; ne označava grešku ili automatski nepostojanje resursa.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 94,
+    "images": [],
+    "o": [
+      "Da",
+      "Ne"
+    ],
+    "q": "Status code 204 označava da se request NEUSPJEŠNO izvršio?",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "Da",
+      "Ne"
+    ],
+    "originalQ": "Status code 204 označava da se request NEUSPJEŠNO izvršio?",
+    "lesson": "Test 5",
+    "topic": "P2 — HTTP",
+    "e": "NE. Status 204 pripada grupi uspjeha 2xx. „No Content“ znači da nema tijela odgovora.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 95,
+    "images": [],
+    "o": [
+      "Vjerovatnoca kupovine posmatranog proizvoda.",
+      "Vjerovatnoca kupovine drugog proizvoda nakon kupovine prvog.",
+      "Promjena u vjerovatnoci da ce drugi proizvod biti kupljen nakon kupovine prvog."
+    ],
+    "q": "Kod association rules, sta znaci confidence?",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "Vjerovatnoca kupovine posmatranog proizvoda.",
+      "Vjerovatnoca kupovine drugog proizvoda nakon kupovine prvog.",
+      "Promjena u vjerovatnoci da ce drugi proizvod biti kupljen nakon kupovine prvog."
+    ],
+    "originalQ": "Kod association rules, sta znaci confidence?",
+    "lesson": "Test 5",
+    "topic": "P9 — Sistemi preporuke",
+    "e": "Confidence pravila X→Y je P(Y|X) = support(X∩Y) / support(X): udio transakcija s X koje sadrže i Y. Nije tvrdnja o vremenskom redoslijedu niti uzroku kupovine.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 96,
+    "images": [],
+    "o": [
+      "DA",
+      "NE"
+    ],
+    "q": "Zadnja verzija HTTP-a je 2.0.",
+    "type": "single",
+    "originalC": [
+      0
+    ],
+    "originalO": [
+      "DA",
+      "NE"
+    ],
+    "originalQ": "Zadnja verzija HTTP-a je 2.0.",
+    "lesson": "Test 5",
+    "topic": "P2 — HTTP",
+    "e": "Izvorni test očekuje DA jer je star. Danas tvrdnja nije tačna: HTTP/3 je standardizovan RFC-om 9114 iz 2022. I dostavljena novija lekcija P2 navodi verziju 3.",
+    "source": "https://www.rfc-editor.org/rfc/rfc9114.html"
+  },
+  {
+    "c": [
+      2
+    ],
+    "id": 97,
+    "images": [],
+    "o": [
+      "Informacije o akcijama koje se trenutno izvrsavaju ili su se ranije izvrsavale na docker-u.",
+      "Informacije o Web servisima koji se izvrsavaju ili su se ranije izvrsavali.",
+      "Informacije o kontejnerima koji se trenutno izvrsavaju ili su se ranije izvrsavali na docker-u."
+    ],
+    "q": "Koje informacije nam daju komande docker ps i docker ps -a?",
+    "type": "single",
+    "originalC": [
+      2
+    ],
+    "originalO": [
+      "Informacije o akcijama koje se trenutno izvrsavaju ili su se ranije izvrsavale na docker-u.",
+      "Informacije o Web servisima koji se izvrsavaju ili su se ranije izvrsavali.",
+      "Informacije o kontejnerima koji se trenutno izvrsavaju ili su se ranije izvrsavali na docker-u."
+    ],
+    "originalQ": "Koje informacije nam daju komande docker ps i docker ps -a?",
+    "lesson": "Test 5",
+    "topic": "P8 — Docker",
+    "e": "docker ps prikazuje trenutno pokrenute kontejnere; docker ps -a prikazuje sve postojeće kontejnere, uključujući zaustavljene. Obrisani kontejneri nisu historijska evidencija ove komande.",
+    "source": null
+  },
+  {
+    "c": [
+      1
+    ],
+    "id": 98,
+    "images": [
+      {
+        "alt": "",
+        "src": "https://image.ibb.co/g782ec/3.jpg"
+      },
+      {
+        "alt": "",
+        "src": "https://image.ibb.co/efkR5H/1.jpg"
+      },
+      {
+        "alt": "",
+        "src": "https://image.ibb.co/jD5R5H/4.jpg"
+      },
+      {
+        "alt": "",
+        "src": "https://image.ibb.co/e282ec/2.jpg"
+      }
+    ],
+    "o": [
+      "MEDIAN(A2:D2,A1:D1) = 3",
+      "PEARSON(A2:D2,A1:D1) ≈ 0,8528029",
+      "AVERAGE(A2:D2,A1:D1) = 3,125",
+      "SUM(A2:D2,A1:D1) = 25"
+    ],
+    "q": "Izračunati Pearsonovu sličnost nizova [5,3,4,4] i [3,1,2,3]. Koja je formula ispravna?",
+    "type": "single",
+    "originalC": [
+      1
+    ],
+    "originalO": [
+      "MEDIAN(A2:D2,A1:D1) = 3",
+      "PEARSON(A2:D2,A1:D1) ≈ 0,8528029",
+      "AVERAGE(A2:D2,A1:D1) = 3,125",
+      "SUM(A2:D2,A1:D1) = 25"
+    ],
+    "originalQ": "Izračunati sličnost na osnovu vrijednosti iz tabele.",
+    "lesson": "Test 5",
+    "topic": "P9 — Sistemi preporuke",
+    "e": "Na slikama su nizovi [5,3,4,4] i [3,1,2,3]. Traži se Pearsonova korelacija, pa je ispravna formula PEARSON(A2:D2,A1:D1), r ≈ 0,8528029. MEDIAN, AVERAGE i SUM nisu mjere korelacije. Prosjeci su 4 i 2,25; zbir proizvoda odstupanja je 2, a nazivnik √(2·2,75).",
+    "source": null
+  },
+  {
+    "c": [
+      8
+    ],
+    "id": 99,
+    "images": [],
+    "o": [
+      "OPTIONS",
+      "GET",
+      "TRACE",
+      "DELETE",
+      "HEAD",
+      "POST",
+      "PUT",
+      "PATCH",
+      "CONNECT"
+    ],
+    "q": "Signal, najcesce proxy serveru, vezano za tuneliranje komunikacije (SSL)",
+    "type": "single",
+    "originalC": [
+      8
+    ],
+    "originalO": [
+      "OPTIONS",
+      "GET",
+      "TRACE",
+      "DELETE",
+      "HEAD",
+      "POST",
+      "PUT",
+      "PATCH",
+      "CONNECT"
+    ],
+    "originalQ": "Signal, najcesce proxy serveru, vezano za tuneliranje komunikacije (SSL)",
+    "lesson": "Test 5",
+    "topic": "P2 — HTTP",
+    "e": "CONNECT traži uspostavljanje tunela prema odredištu, tipično preko HTTP proxy-ja za HTTPS komunikaciju.",
+    "source": null
+  }
+]
