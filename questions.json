@@ -548,9 +548,11 @@
     "originalQ": "Koje alate koristimo za kontinuiranu isporuku?",
     "lesson": "DevOps",
     "topic": "P7 — DevOps",
-    "e": "P7, slajd 20, navodi Octopus za kontinuiranu isporuku i značaj Dockera u tom procesu. Kibana i Logstash pripadaju obradi i analizi logova.",
+    "e": "P7, slajd 20, navodi Octopus za kontinuiranu isporuku i značaj Dockera u tom procesu. Kibana i Logstash pripadaju obradi i analizi logova. Izvor ispitne oznake: Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje.",
     "source": null,
-    "sectionId": 4
+    "sectionId": 4,
+    "isExam": true,
+    "examSource": "Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje."
   },
   {
     "c": [
@@ -1319,9 +1321,11 @@
     "originalQ": "Kljucne komponente web servisa su:",
     "lesson": "Web API, rutiranje i sigurnost",
     "topic": "P1 — Uvod / web servisi",
-    "e": "U kontekstu klasičnih SOAP web servisa, predavanje P1 navodi XML, SOAP, WSDL i UDDI. To nije univerzalna obavezna lista za svaki savremeni REST API.",
+    "e": "U kontekstu klasičnih SOAP web servisa, predavanje P1 navodi XML, SOAP, WSDL i UDDI. To nije univerzalna obavezna lista za svaki savremeni REST API. Izvor ispitne oznake: Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje.",
     "source": null,
-    "sectionId": 3
+    "sectionId": 3,
+    "isExam": true,
+    "examSource": "Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje."
   },
   {
     "c": [
@@ -1385,9 +1389,11 @@
     "originalQ": "Jenkins i TeamCity, su alati za:",
     "lesson": "DevOps",
     "topic": "P7 — DevOps",
-    "e": "P7, slajd 19, navodi Jenkins i TeamCity za kontinuiranu integraciju: povezivanje komponenti, build i testove.",
+    "e": "P7, slajd 19, navodi Jenkins i TeamCity za kontinuiranu integraciju: povezivanje komponenti, build i testove. Izvor ispitne oznake: Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje.",
     "source": null,
-    "sectionId": 4
+    "sectionId": 4,
+    "isExam": true,
+    "examSource": "Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje."
   },
   {
     "c": [
@@ -2089,9 +2095,11 @@
     "originalQ": "Koji je uzrok cold start-a?",
     "lesson": "Sistemi preporuke",
     "topic": "P9 — Sistemi preporuke",
-    "e": "Cold start nastaje kad za novog korisnika, novi artikal ili novi sistem nema dovoljno ocjena i interakcija za pouzdanu personalizaciju.",
+    "e": "Cold start nastaje kad za novog korisnika, novi artikal ili novi sistem nema dovoljno ocjena i interakcija za pouzdanu personalizaciju. Izvor ispitne oznake: Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje.",
     "source": null,
-    "sectionId": 7
+    "sectionId": 7,
+    "isExam": true,
+    "examSource": "Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje."
   },
   {
     "c": [
@@ -2928,9 +2936,11 @@
     "originalQ": "Koju metodu koristimo kad zelimo znati da li posjedujemo posljednju veziju podataka dostupnih na serveru.",
     "lesson": "HTTP metode i zaglavlja",
     "topic": "P2 — HTTP",
-    "e": "HEAD može dobaviti metapodatke poput ETag ili Last-Modified bez tijela, pa se mogu porediti s lokalnom kopijom. Validacija cache-a se često radi i uslovnim GET zahtjevom koji može vratiti 304.",
+    "e": "HEAD može dobaviti metapodatke poput ETag ili Last-Modified bez tijela, pa se mogu porediti s lokalnom kopijom. Validacija cache-a se često radi i uslovnim GET zahtjevom koji može vratiti 304. Izvor ispitne oznake: Fotografija ispitnog pitanja koju je korisnik dostavio.",
     "source": null,
-    "sectionId": 1
+    "sectionId": 1,
+    "isExam": true,
+    "examSource": "Fotografija ispitnog pitanja koju je korisnik dostavio."
   },
   {
     "c": [
@@ -3268,5 +3278,283 @@
     "e": "CONNECT traži uspostavljanje tunela prema odredištu, tipično preko HTTP proxy-ja za HTTPS komunikaciju.",
     "source": null,
     "sectionId": 1
+  },
+  {
+    "id": 100,
+    "sectionId": 3,
+    "lesson": "Web API, rutiranje i sigurnost",
+    "topic": "P3 — Rutiranje i formati",
+    "type": "single",
+    "q": "ActionName se koristi za:",
+    "o": [
+      "Definisanje dodatnog imena akcije",
+      "Definisanje prefiksa u imenu svih akcija određenog kontrolera",
+      "Ništa od navedenog",
+      "Definisanje imena akcije ukoliko je ona zaštićena",
+      "Definisanje drugog imena klase"
+    ],
+    "c": [
+      0
+    ],
+    "e": "ActionName dodjeljuje akciji alternativno ime. Ne mijenja ime klase niti definiše zajednički prefiks akcija kontrolera. Pitanje na mutnoj fotografiji, prema pojašnjenju korisnika, glasi ActionName. P3, slajd 8. Izvor ispitne oznake: Fotografija ispitnog pitanja koju je korisnik dostavio.",
+    "images": [],
+    "source": null,
+    "originalQ": "ActionName se koristi za:",
+    "originalO": [
+      "Definisanje dodatnog imena akcije",
+      "Definisanje prefiksa u imenu svih akcija određenog kontrolera",
+      "Ništa od navedenog",
+      "Definisanje imena akcije ukoliko je ona zaštićena",
+      "Definisanje drugog imena klase"
+    ],
+    "originalC": [
+      0
+    ],
+    "isExam": true,
+    "examSource": "Fotografija ispitnog pitanja koju je korisnik dostavio."
+  },
+  {
+    "id": 101,
+    "sectionId": 7,
+    "lesson": "Sistemi preporuke",
+    "topic": "P9 — Sistemi preporuke",
+    "type": "single",
+    "q": "U slučaju da se za proizvode P1 i P2 kao vrijednost confidence-a dobije 3,8, onda možemo zaključiti sljedeće:",
+    "o": [
+      "Ništa od navedenog",
+      "Vjerovatnoća kupovine proizvoda P2 nakon kupovine proizvoda P1 iznosi 3,8",
+      "Vjerovatnoća da će proizvod P1 biti kupljen iznosi 3,8",
+      "Vrijednost 3,8 odnosi se na promjenu u vjerovatnoći da će P2 biti kupljen nakon kupovine P1",
+      "Vjerovatnoća da će proizvod P2 biti kupljen iznosi 3,8, bez obzira na kupovinu proizvoda P1"
+    ],
+    "c": [
+      0
+    ],
+    "e": "Confidence(P1→P2) = P(P2|P1), pa mora biti u intervalu [0,1], odnosno 0–100%. Broj 3,8 bez oznake procenta bio bi 380% i nije valjana vjerovatnoća. Zato je tačno „Ništa od navedenog“. Da je pisalo 3,8%, tumačenje bi bilo drugačije. Lift, kao omjer vjerovatnoća, može biti 3,8, ali pitanje izričito kaže confidence. Izvor ispitne oznake: Fotografija ispitnog pitanja koju je korisnik dostavio.",
+    "images": [],
+    "source": "https://www.ibm.com/docs/en/db2/11.1.0?topic=visualizer-characteristics-association-rules-item-sets",
+    "originalQ": "U slučaju da se za proizvode P1 i P2 kao vrijednost confidence-a dobije 3,8, onda možemo zaključiti sljedeće:",
+    "originalO": [
+      "Ništa od navedenog",
+      "Vjerovatnoća kupovine proizvoda P2 nakon kupovine proizvoda P1 iznosi 3,8",
+      "Vjerovatnoća da će proizvod P1 biti kupljen iznosi 3,8",
+      "Vrijednost 3,8 odnosi se na promjenu u vjerovatnoći da će P2 biti kupljen nakon kupovine P1",
+      "Vjerovatnoća da će proizvod P2 biti kupljen iznosi 3,8, bez obzira na kupovinu proizvoda P1"
+    ],
+    "originalC": [
+      0
+    ],
+    "isExam": true,
+    "examSource": "Fotografija ispitnog pitanja koju je korisnik dostavio."
+  },
+  {
+    "id": 102,
+    "sectionId": 7,
+    "lesson": "Sistemi preporuke",
+    "topic": "P9 — Sistemi preporuke",
+    "type": "multiple",
+    "q": "Problem „cold-start“ pri implementaciji algoritama za preporuku može se ublažiti:",
+    "o": [
+      "Item-based filtriranjem za preporuku proizvoda koje su ocijenili slični korisnici",
+      "User-based filtriranjem koje u obzir uzima samo ocijenjene proizvode",
+      "Personaliziranim preporukama zasnovanim na korisničkom profilu",
+      "Upotrebom hibridnih algoritama, gdje se u preporuci ne koriste samo ocjene, nego i karakteristike posmatranog proizvoda"
+    ],
+    "c": [
+      2,
+      3
+    ],
+    "e": "Kada nema dovoljno ocjena ili interakcija, dodatni podaci iz korisničkog profila i karakteristike proizvoda mogu pomoći. Hibridni pristup kombinuje te podatke s kolaborativnim filtriranjem. To ublažava cold start kada su ti dodatni podaci dostupni; ne garantuje rješenje svakog slučaja. Prve dvije opcije se i dalje oslanjaju na ocjene, a prva dodatno miješa item-based i user-based opis. Fotografija koristi riječ „riješiti“; ovdje je precizirano „ublažiti“. Izvor ispitne oznake: Fotografija ispitnog pitanja koju je korisnik dostavio.",
+    "images": [],
+    "source": null,
+    "originalQ": "Problem „cold-start“ pri implementaciji algoritama za preporuku može se ublažiti:",
+    "originalO": [
+      "Item-based filtriranjem za preporuku proizvoda koje su ocijenili slični korisnici",
+      "User-based filtriranjem koje u obzir uzima samo ocijenjene proizvode",
+      "Personaliziranim preporukama zasnovanim na korisničkom profilu",
+      "Upotrebom hibridnih algoritama, gdje se u preporuci ne koriste samo ocjene, nego i karakteristike posmatranog proizvoda"
+    ],
+    "originalC": [
+      2,
+      3
+    ],
+    "isExam": true,
+    "examSource": "Fotografija ispitnog pitanja koju je korisnik dostavio."
+  },
+  {
+    "id": 103,
+    "sectionId": 3,
+    "lesson": "Web API, rutiranje i sigurnost",
+    "topic": "P3 — Rutiranje i formati",
+    "type": "single",
+    "q": "Za GET akciju SearchProizvodi u kontroleru Proizvodi definisana je ruta api/proizvodi/search/{proizvodID}. Koji URL dohvaća proizvod s ID-em 123?",
+    "o": [
+      "GET /api/proizvodi/search/123",
+      "GET /api/proizvodi/search?proizvodID=123",
+      "GET /api/proizvodi/123/search",
+      "POST /api/proizvodi/search/123"
+    ],
+    "c": [
+      0
+    ],
+    "e": "Vrijednost obaveznog segmenta {proizvodID} upisuje se u putanju, pa je odgovor /api/proizvodi/search/123. Sama oznaka ili naziv metode ne određuje URL: da je API drugačije konfigurisan, i query parametar mogao bi biti valjan. Ruta je zato izričito navedena u ovom rekonstruisanom pitanju. Izvor ispitne oznake: Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje.",
+    "images": [],
+    "source": null,
+    "originalQ": "Za GET akciju SearchProizvodi u kontroleru Proizvodi definisana je ruta api/proizvodi/search/{proizvodID}. Koji URL dohvaća proizvod s ID-em 123?",
+    "originalO": [
+      "GET /api/proizvodi/search/123",
+      "GET /api/proizvodi/search?proizvodID=123",
+      "GET /api/proizvodi/123/search",
+      "POST /api/proizvodi/search/123"
+    ],
+    "originalC": [
+      0
+    ],
+    "isExam": true,
+    "examSource": "Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje."
+  },
+  {
+    "id": 104,
+    "sectionId": 3,
+    "lesson": "Web API, rutiranje i sigurnost",
+    "topic": "P3 — Rutiranje i formati",
+    "type": "multiple",
+    "q": "Za GET akciju SearchProizvodi u kontroleru Proizvodi definisana je ruta api/proizvodi/search/{proizvodID?}, a akcija podržava izostavljeni ID. Koje URL-ove ruta podržava?",
+    "o": [
+      "GET /api/proizvodi/search",
+      "GET /api/proizvodi/search/123",
+      "GET /api/proizvodi/search/{proizvodID?}",
+      "GET /api/proizvodi/search/123/456"
+    ],
+    "c": [
+      0,
+      1
+    ],
+    "e": "Opcionalni segment može se izostaviti ili mu se može dati vrijednost. Zato su podržani /search i /search/123. Zagrade i ? pripadaju predlošku rute, ne doslovnom URL-u poziva. U Web API 2 konfiguraciji isto se može postići s RouteParameter.Optional, uz odgovarajuću zadanu vrijednost parametra akcije. Izvor ispitne oznake: Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje.",
+    "images": [],
+    "source": null,
+    "originalQ": "Za GET akciju SearchProizvodi u kontroleru Proizvodi definisana je ruta api/proizvodi/search/{proizvodID?}, a akcija podržava izostavljeni ID. Koje URL-ove ruta podržava?",
+    "originalO": [
+      "GET /api/proizvodi/search",
+      "GET /api/proizvodi/search/123",
+      "GET /api/proizvodi/search/{proizvodID?}",
+      "GET /api/proizvodi/search/123/456"
+    ],
+    "originalC": [
+      0,
+      1
+    ],
+    "isExam": true,
+    "examSource": "Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje."
+  },
+  {
+    "id": 105,
+    "sectionId": 3,
+    "lesson": "Web API, rutiranje i sigurnost",
+    "topic": "P3 — Rutiranje i formati",
+    "type": "single",
+    "q": "Odaberi ispravan JSON objekat za vrijednosti C# članova: string ime = \"fina kuca\"; string josNesto = \"neki tekst\"; string opetString = \"string\"; double broj = 5.4; bool istinito = true;",
+    "o": [
+      "{\"ime\":\"fina kuca\",\"josNesto\":\"neki tekst\",\"opetString\":\"string\",\"broj\":5.4,\"istinito\":true}",
+      "{ime:\"fina kuca\",josNesto:\"neki tekst\",opetString:\"string\",broj:5.4,istinito:true}",
+      "{\"ime\":\"fina kuca\",\"josNesto\":\"neki tekst\",\"opetString\":\"string\",\"broj\":\"5.4\",\"istinito\":\"true\"}",
+      "{\"ime\":\"fina kuca\",\"josNesto\":\"neki tekst\",\"opetString\":\"string\",\"broj\":5.4,\"istinito\":True}"
+    ],
+    "c": [
+      0
+    ],
+    "e": "Nazivi JSON svojstava i tekstualne vrijednosti moraju biti u običnim dvostrukim navodnicima. Broj 5.4 ostaje broj bez navodnika, a true je logička vrijednost pisana malim slovima. Treća opcija je sintaksno valjan JSON, ali mijenja tip broja i logičke vrijednosti u string. Pitanje traži prikaz navedenih vrijednosti, nezavisno od postavki konkretnog C# serializer-a. Izvor ispitne oznake: Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje.",
+    "images": [],
+    "source": "https://www.rfc-editor.org/rfc/rfc8259.html",
+    "originalQ": "Odaberi ispravan JSON objekat za vrijednosti C# članova: string ime = \"fina kuca\"; string josNesto = \"neki tekst\"; string opetString = \"string\"; double broj = 5.4; bool istinito = true;",
+    "originalO": [
+      "{\"ime\":\"fina kuca\",\"josNesto\":\"neki tekst\",\"opetString\":\"string\",\"broj\":5.4,\"istinito\":true}",
+      "{ime:\"fina kuca\",josNesto:\"neki tekst\",opetString:\"string\",broj:5.4,istinito:true}",
+      "{\"ime\":\"fina kuca\",\"josNesto\":\"neki tekst\",\"opetString\":\"string\",\"broj\":\"5.4\",\"istinito\":\"true\"}",
+      "{\"ime\":\"fina kuca\",\"josNesto\":\"neki tekst\",\"opetString\":\"string\",\"broj\":5.4,\"istinito\":True}"
+    ],
+    "originalC": [
+      0
+    ],
+    "isExam": true,
+    "examSource": "Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje."
+  },
+  {
+    "id": 106,
+    "sectionId": 7,
+    "lesson": "Sistemi preporuke",
+    "topic": "P9 — Sistemi preporuke",
+    "type": "single",
+    "q": "Sistem pronalazi korisnike sa sličnim ocjenama kao kupac, zatim mu preporučuje proizvode koje su ti korisnici visoko ocijenili. Koji je ovo pristup?",
+    "o": [
+      "Content-based filtering",
+      "User-based collaborative filtering",
+      "Association rules learning",
+      "Nasumična preporuka"
+    ],
+    "c": [
+      1
+    ],
+    "e": "Ključ je u sličnosti KORISNIKA i njihovih ocjena: to je user-based collaborative filtering. Content-based pristup koristi karakteristike proizvoda, dok item-based CF poredi obrasce interakcija s artiklima. Ovo je primjer za vježbanje rekonstruisan iz spiska: izvorni autor spiska nije zapamtio tačan tekst primjera. Izvor ispitne oznake: Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje.",
+    "images": [],
+    "source": null,
+    "originalQ": "Sistem pronalazi korisnike sa sličnim ocjenama kao kupac, zatim mu preporučuje proizvode koje su ti korisnici visoko ocijenili. Koji je ovo pristup?",
+    "originalO": [
+      "Content-based filtering",
+      "User-based collaborative filtering",
+      "Association rules learning",
+      "Nasumična preporuka"
+    ],
+    "originalC": [
+      1
+    ],
+    "isExam": true,
+    "examSource": "Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje."
+  },
+  {
+    "id": 107,
+    "sectionId": 5,
+    "lesson": "Docker",
+    "topic": "P8 — Docker",
+    "type": "multiple",
+    "q": "Koje tvrdnje tačno objašnjavaju komandu docker run -d --name wordpressFIT -p 80:8080 wordpress?",
+    "o": [
+      "docker run kreira i pokreće novi kontejner iz image-a wordpress",
+      "-d pokreće kontejner u pozadini (detached mode)",
+      "--name wordpressFIT dodjeljuje kontejneru naziv wordpressFIT",
+      "-p 80:8080 mapira port 80 hosta na port 8080 kontejnera",
+      "wordpress je naziv image-a",
+      "-p 80:8080 mapira port 8080 hosta na port 80 kontejnera",
+      "--name wordpressFIT preimenuje image wordpress u wordpressFIT"
+    ],
+    "c": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "e": "Redom: run kreira i pokreće novi kontejner, -d znači rad u pozadini, --name postavlja ime kontejnera, -p koristi redoslijed HOST:KONTEJNER, a posljednja riječ određuje image. Komanda pretpostavlja da aplikacija unutar kontejnera sluša na portu 8080; samo mapiranje ne mijenja port na kojem aplikacija sluša. P8, slajdovi 16–18. Izvor ispitne oznake: Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje.",
+    "images": [],
+    "source": null,
+    "originalQ": "Koje tvrdnje tačno objašnjavaju komandu docker run -d --name wordpressFIT -p 80:8080 wordpress?",
+    "originalO": [
+      "docker run kreira i pokreće novi kontejner iz image-a wordpress",
+      "-d pokreće kontejner u pozadini (detached mode)",
+      "--name wordpressFIT dodjeljuje kontejneru naziv wordpressFIT",
+      "-p 80:8080 mapira port 80 hosta na port 8080 kontejnera",
+      "wordpress je naziv image-a",
+      "-p 80:8080 mapira port 8080 hosta na port 80 kontejnera",
+      "--name wordpressFIT preimenuje image wordpress u wordpressFIT"
+    ],
+    "originalC": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "isExam": true,
+    "examSource": "Spisak pitanja po sjećanju na ispit; formulacija i ponuđeni odgovori rekonstruisani su za vježbanje."
   }
 ]
